@@ -1,0 +1,6 @@
+http://blog.csdn.net/charcy/article/details/6230908   ubuntu常用设置�?http://www.educity.cn/wenda/179382.html               app_process来调用java写的命令
+http://blog.csdn.net/zhangxinrun/article/details/8841065   打包jar�?
+http://www.kwstu.com/ArticleView/kwstu_201408280736162968   monkey测试脚本
+
+http://blog.chinaunix.net/uid/25799257/cid-152414-list-2.html  python
+

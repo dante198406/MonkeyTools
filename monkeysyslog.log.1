@@ -1,0 +1,3024 @@
+:Monkey: seed=1434849909151 count=1200
+:AllowPackage: com.example.textjni
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.dialer.DialtactsActivity (from package com.android.dialer)
+//   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$TetherSettingsActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.browser.BrowserActivity (from package com.android.browser)
+//   - NOT USING main activity com.android.calculator2.Calculator (from package com.android.calculator2)
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.android.deskclock)
+//   - NOT USING main activity com.android.email.activity.Welcome (from package com.android.email)
+//   - NOT USING main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   - NOT USING main activity com.android.music.MusicBrowserActivity (from package com.android.music)
+//   - NOT USING main activity com.android.music.VideoBrowserActivity (from package com.android.music)
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package org.codeaurora.snapcam)
+//   - NOT USING main activity com.android.soundrecorder.SoundRecorder (from package com.android.soundrecorder)
+//   - NOT USING main activity com.qti.antitheftdemo.MainActivity (from package com.qti.antitheftdemo)
+//   - NOT USING main activity com.android.BrowserQuick.BrowserQuick (from package com.android.BrowserQuick)
+//   - NOT USING main activity com.qualcomm.roamingsettings.RoamingSettingsActivity (from package com.qualcomm.roamingsettings)
+//   - NOT USING main activity com.qualcomm.universaldownload.SettingsActivity (from package com.qualcomm.universaldownload)
+//   - NOT USING main activity com.qualcomm.customerservice.CustomerService (from package com.qualcomm.customerservice)
+//   - NOT USING main activity com.android.providers.downloads.ui.DownloadList (from package com.android.providers.downloads.ui)
+//   - NOT USING main activity com.android.qrdfileexplorer.MainActivity (from package com.android.qrdfileexplorer)
+//   - NOT USING main activity com.qti.homelocation.AreaListActivity (from package com.qti.homelocation)
+//   - NOT USING main activity com.android.profile.ProfileMain (from package com.android.profile)
+//   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+//   - NOT USING main activity com.qualcomm.qualcommsettings.QualcommSettings (from package com.qualcomm.qualcommsettings)
+//   - NOT USING main activity com.android.quicksearchbox.SearchActivity (from package com.android.quicksearchbox)
+//   - NOT USING main activity com.android.stk.StkLauncherActivity2 (from package com.android.stk)
+//   - NOT USING main activity com.android.stoptimer.StopTimer (from package com.android.stoptimer)
+//   - NOT USING main activity com.android.videoeditor.ProjectsActivity (from package com.android.videoeditor)
+//   - NOT USING main activity com.android.qworldclock.QWorldClock (from package com.android.qworldclock)
+//   - NOT USING main activity com.playready.junit.PlayreadyJUnitTest (from package com.playready.junit)
+//   - NOT USING main activity com.cootek.smartinput5.Guide (from package com.cootek.smartinputv5.oem)
+//   + Using main activity com.example.textjni.MainActivity (from package com.example.textjni)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.launcher2.Launcher (from package com.android.launcher)
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+// Seeded: 1434849909151
+// Event percentages:
+//   0: 46.875%
+//   1: 31.25%
+//   2: 6.25%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: -0.0%
+//   7: 6.25%
+//   8: 6.25%
+//   9: 3.125%
+//   10: -0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5259)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5273)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(200.0,126.0)
+:Sending Touch (ACTION_UP): 0:(216.17816,137.65932)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5288)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(578.0,264.0)
+:Sending Touch (ACTION_UP): 0:(585.49255,272.8496)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(537.0,680.0)
+:Sending Touch (ACTION_MOVE): 0:(542.24927,704.15106)
+:Sending Touch (ACTION_UP): 0:(549.0123,725.4105)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(287.0,68.0)
+:Sending Touch (ACTION_UP): 0:(282.22623,53.127262)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(513.0,1127.0)
+:Sending Touch (ACTION_MOVE): 0:(519.75494,1109.685)
+:Sending Touch (ACTION_MOVE): 0:(521.4478,1100.8322)
+:Sending Touch (ACTION_MOVE): 0:(527.6548,1099.8483)
+:Sending Touch (ACTION_MOVE): 0:(534.61487,1095.8231)
+:Sending Touch (ACTION_MOVE): 0:(539.6247,1092.5168)
+:Sending Touch (ACTION_MOVE): 0:(544.2403,1071.5906)
+:Sending Touch (ACTION_MOVE): 0:(551.8777,1049.5126)
+:Sending Touch (ACTION_UP): 0:(553.609,1049.3833)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5329)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5344)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(553.0,1159.0)
+:Sending Touch (ACTION_UP): 0:(542.56647,1169.1663)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5358)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(493.0,245.0)
+:Sending Touch (ACTION_UP): 0:(487.147,238.83208)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(384.0,600.0)
+:Sending Touch (ACTION_MOVE): 0:(379.5036,600.32965)
+:Sending Touch (ACTION_MOVE): 0:(375.3528,600.4032)
+:Sending Touch (ACTION_UP): 0:(368.58765,601.0456)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5374)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(248.0,864.0)
+:Sending Touch (ACTION_UP): 0:(235.75327,864.8644)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5389)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5404)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(347.0,1204.0)
+:Sending Touch (ACTION_MOVE): 0:(345.299,1212.6605)
+:Sending Touch (ACTION_MOVE): 0:(341.9743,1225.8649)
+:Sending Touch (ACTION_MOVE): 0:(341.42865,1227.3024)
+:Sending Touch (ACTION_MOVE): 0:(338.18533,1233.0106)
+:Sending Touch (ACTION_MOVE): 0:(336.87003,1241.2136)
+:Sending Touch (ACTION_MOVE): 0:(335.73334,1251.0487)
+:Sending Touch (ACTION_MOVE): 0:(333.3251,1257.5077)
+:Sending Touch (ACTION_MOVE): 0:(329.46118,1269.1594)
+:Sending Touch (ACTION_MOVE): 0:(325.7929,1277.0093)
+:Sending Touch (ACTION_UP): 0:(323.54318,1280.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(691.0,718.0)
+:Sending Touch (ACTION_UP): 0:(689.1847,716.21155)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(391.0,858.0)
+:Sending Touch (ACTION_UP): 0:(381.74997,846.5459)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(28.0,29.0)
+:Sending Touch (ACTION_UP): 0:(27.40539,20.847881)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(444.0,875.0)
+:Sending Touch (ACTION_UP): 0:(445.48743,869.16187)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5432)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5447)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(379.0,208.0)
+:Sending Touch (ACTION_UP): 0:(360.85294,189.55403)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5462)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(306.0,573.0)
+:Sending Touch (ACTION_UP): 0:(324.87454,584.2622)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(375.0,1086.0)
+:Sending Touch (ACTION_MOVE): 0:(370.96313,1079.4536)
+:Sending Touch (ACTION_MOVE): 0:(367.72595,1069.5648)
+:Sending Touch (ACTION_MOVE): 0:(365.13257,1060.7753)
+:Sending Touch (ACTION_UP): 0:(362.33856,1050.9584)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(242.0,833.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(247.71712,843.7741) 1:(468.0,235.0)
+:Sending Touch (ACTION_MOVE): 0:(262.2437,850.7649) 1:(462.0643,231.76053)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(266.91263,857.3017) 1:(455.87558,212.24695)
+:Sending Touch (ACTION_UP): 0:(284.81305,860.5559)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(416.0,327.0)
+:Sending Touch (ACTION_UP): 0:(415.05762,330.09735)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(459.0,753.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(460.7348,759.83496) 1:(606.0,541.0)
+:Sending Touch (ACTION_MOVE): 0:(467.17667,773.37836) 1:(610.6071,547.38965)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(474.71002,786.7541) 1:(612.6798,554.3418)
+:Sending Touch (ACTION_UP): 0:(478.83524,797.4236)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(182.0,449.0)
+:Sending Touch (ACTION_UP): 0:(165.89082,453.64786)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(15.0,699.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(0.0,699.8498) 1:(698.0,17.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,700.73236) 1:(697.66614,20.042715)
+:Sending Touch (ACTION_MOVE): 0:(0.0,701.757) 1:(686.87775,20.643787)
+:Sending Touch (ACTION_MOVE): 0:(0.0,702.8735) 1:(674.2854,21.643099)
+:Sending Touch (ACTION_MOVE): 0:(0.0,703.9359) 1:(670.44165,23.734419)
+:Sending Touch (ACTION_MOVE): 0:(0.0,704.74384) 1:(657.2102,26.942675)
+:Sending Touch (ACTION_MOVE): 0:(0.0,705.1577) 1:(654.78723,28.544456)
+:Sending Touch (ACTION_MOVE): 0:(0.0,705.81274) 1:(653.0078,31.616768)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(0.0,706.17426) 1:(648.61444,33.91582)
+:Sending Touch (ACTION_UP): 0:(0.0,706.7407)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(716.0,520.0)
+:Sending Touch (ACTION_UP): 0:(709.03864,522.1737)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(334.0,1089.0)
+:Sending Touch (ACTION_MOVE): 0:(340.56216,1081.4103)
+:Sending Touch (ACTION_MOVE): 0:(342.566,1075.9525)
+:Sending Touch (ACTION_MOVE): 0:(349.83813,1070.1088)
+:Sending Touch (ACTION_MOVE): 0:(350.80383,1063.8435)
+:Sending Touch (ACTION_MOVE): 0:(352.1356,1059.2356)
+:Sending Touch (ACTION_MOVE): 0:(355.1792,1058.6908)
+    //[calendar_time:2015-06-08 16:39:55.317  system_uptime:21761518]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(362.81308,1052.8485)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(397.0,791.0)
+:Sending Touch (ACTION_MOVE): 0:(394.68542,768.537)
+:Sending Touch (ACTION_MOVE): 0:(393.93668,748.1638)
+:Sending Touch (ACTION_MOVE): 0:(390.0729,734.8097)
+:Sending Touch (ACTION_MOVE): 0:(388.72827,733.96075)
+:Sending Touch (ACTION_MOVE): 0:(388.2161,716.3802)
+:Sending Touch (ACTION_UP): 0:(386.83847,713.5924)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(102.0,709.0)
+:Sending Touch (ACTION_UP): 0:(99.05566,700.89777)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(28.0,922.0)
+:Sending Touch (ACTION_UP): 0:(22.288315,912.81323)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(85.0,91.0)
+:Sending Touch (ACTION_UP): 0:(85.94188,91.01345)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(248.0,1000.0)
+:Sending Touch (ACTION_UP): 0:(254.63266,991.3622)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(533.0,15.0)
+:Sending Touch (ACTION_UP): 0:(539.1417,21.184708)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(32.0,270.0)
+:Sending Touch (ACTION_MOVE): 0:(28.756811,265.48822)
+:Sending Touch (ACTION_MOVE): 0:(22.637157,252.29921)
+:Sending Touch (ACTION_MOVE): 0:(20.680733,247.97266)
+:Sending Touch (ACTION_UP): 0:(17.001284,235.12706)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(120.0,776.0)
+:Sending Touch (ACTION_UP): 0:(115.963875,767.40234)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(26.0,494.0)
+:Sending Touch (ACTION_UP): 0:(42.752644,477.21872)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(605.0,549.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(620.70416,538.1409) 1:(183.0,793.0)
+:Sending Touch (ACTION_MOVE): 0:(627.2026,531.4682) 1:(182.07303,790.2156)
+:Sending Touch (ACTION_MOVE): 0:(629.1029,517.10864) 1:(181.76994,786.80096)
+:Sending Touch (ACTION_MOVE): 0:(631.09076,499.79633) 1:(175.72816,782.05475)
+:Sending Touch (ACTION_MOVE): 0:(637.4933,479.35992) 1:(169.66522,777.05066)
+:Sending Touch (ACTION_MOVE): 0:(649.08997,475.64972) 1:(169.35909,771.5612)
+:Sending Touch (ACTION_MOVE): 0:(663.875,468.5214) 1:(165.52841,769.9547)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(670.3655,465.01215) 1:(160.00992,767.39856)
+:Sending Touch (ACTION_UP): 0:(685.24725,443.36984)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(509.0,972.0)
+:Sending Touch (ACTION_MOVE): 0:(509.03024,975.0543)
+:Sending Touch (ACTION_MOVE): 0:(509.30356,977.8217)
+:Sending Touch (ACTION_MOVE): 0:(509.4326,980.84296)
+:Sending Touch (ACTION_MOVE): 0:(509.49338,984.91235)
+:Sending Touch (ACTION_MOVE): 0:(509.59402,986.73047)
+:Sending Touch (ACTION_MOVE): 0:(509.80576,986.8129)
+:Sending Touch (ACTION_MOVE): 0:(509.8887,987.9735)
+:Sending Touch (ACTION_MOVE): 0:(509.91284,988.3296)
+:Sending Touch (ACTION_MOVE): 0:(510.08215,990.3652)
+:Sending Touch (ACTION_UP): 0:(510.16626,994.70233)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(357.0,1047.0)
+:Sending Touch (ACTION_MOVE): 0:(365.89572,1042.8269)
+:Sending Touch (ACTION_MOVE): 0:(367.0032,1036.02)
+:Sending Touch (ACTION_MOVE): 0:(369.76862,1032.9404)
+:Sending Touch (ACTION_MOVE): 0:(376.59906,1030.9318)
+:Sending Touch (ACTION_MOVE): 0:(388.42224,1020.61304)
+:Sending Touch (ACTION_MOVE): 0:(394.78842,1015.4233)
+:Sending Touch (ACTION_UP): 0:(400.63147,1010.4223)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(329.0,1108.0)
+:Sending Touch (ACTION_UP): 0:(330.97458,1111.1791)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(488.0,723.0)
+:Sending Touch (ACTION_MOVE): 0:(493.19556,722.2517)
+:Sending Touch (ACTION_MOVE): 0:(493.8476,722.15765)
+:Sending Touch (ACTION_MOVE): 0:(500.20764,718.9548)
+:Sending Touch (ACTION_MOVE): 0:(503.78937,718.9525)
+:Sending Touch (ACTION_MOVE): 0:(508.87982,718.5218)
+:Sending Touch (ACTION_MOVE): 0:(512.5259,716.7039)
+:Sending Touch (ACTION_MOVE): 0:(514.6227,715.4538)
+:Sending Touch (ACTION_MOVE): 0:(515.80365,712.3179)
+:Sending Touch (ACTION_MOVE): 0:(516.7187,710.6509)
+:Sending Touch (ACTION_UP): 0:(522.18475,709.19617)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(609.0,815.0)
+:Sending Touch (ACTION_UP): 0:(609.38525,818.70404)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(326.0,699.0)
+:Sending Touch (ACTION_MOVE): 0:(340.43414,703.26715)
+:Sending Touch (ACTION_MOVE): 0:(346.5352,710.8135)
+:Sending Touch (ACTION_MOVE): 0:(359.05807,718.58057)
+:Sending Touch (ACTION_UP): 0:(363.55313,726.71875)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(166.0,974.0)
+:Sending Touch (ACTION_UP): 0:(164.94914,969.50775)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(210.0,733.0)
+:Sending Touch (ACTION_MOVE): 0:(208.30502,741.2695)
+:Sending Touch (ACTION_MOVE): 0:(204.17358,746.1669)
+:Sending Touch (ACTION_MOVE): 0:(201.96875,754.4831)
+:Sending Touch (ACTION_MOVE): 0:(200.6315,756.0807)
+:Sending Touch (ACTION_MOVE): 0:(199.74315,757.81934)
+:Sending Touch (ACTION_MOVE): 0:(196.2839,766.0613)
+:Sending Touch (ACTION_UP): 0:(191.65807,766.15735)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(69.0,884.0)
+:Sending Touch (ACTION_UP): 0:(77.53194,896.52386)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5514)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(170.0,722.0)
+:Sending Touch (ACTION_UP): 0:(170.29796,717.0834)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5528)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5543)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(58.0,220.0)
+:Sending Touch (ACTION_UP): 0:(58.578358,226.46214)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(687.0,529.0)
+:Sending Touch (ACTION_UP): 0:(688.79504,528.1603)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(247.0,755.0)
+:Sending Touch (ACTION_MOVE): 0:(259.8125,752.6148)
+:Sending Touch (ACTION_MOVE): 0:(266.95132,750.53534)
+:Sending Touch (ACTION_MOVE): 0:(282.61258,749.6434)
+:Sending Touch (ACTION_MOVE): 0:(286.86697,748.75903)
+    //[calendar_time:2015-06-08 16:40:07.823  system_uptime:21773913]
+    // Sending event #200
+:Sending Touch (ACTION_MOVE): 0:(302.25443,747.29877)
+:Sending Touch (ACTION_MOVE): 0:(311.47247,746.8981)
+:Sending Touch (ACTION_MOVE): 0:(323.06833,746.1033)
+:Sending Touch (ACTION_MOVE): 0:(332.94196,743.86456)
+:Sending Touch (ACTION_UP): 0:(341.414,742.4613)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(409.0,749.0)
+:Sending Touch (ACTION_MOVE): 0:(411.7361,749.42694)
+:Sending Touch (ACTION_MOVE): 0:(416.49683,766.15356)
+:Sending Touch (ACTION_MOVE): 0:(417.2976,770.28534)
+:Sending Touch (ACTION_MOVE): 0:(420.95944,785.3363)
+:Sending Touch (ACTION_MOVE): 0:(422.13773,793.32306)
+:Sending Touch (ACTION_MOVE): 0:(425.39212,805.5467)
+:Sending Touch (ACTION_UP): 0:(426.41824,808.0546)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(671.0,704.0)
+:Sending Touch (ACTION_MOVE): 0:(678.5672,696.9036)
+:Sending Touch (ACTION_MOVE): 0:(681.99634,695.735)
+:Sending Touch (ACTION_MOVE): 0:(688.4471,685.42017)
+:Sending Touch (ACTION_MOVE): 0:(690.783,681.86127)
+:Sending Touch (ACTION_MOVE): 0:(696.57574,674.4852)
+:Sending Touch (ACTION_MOVE): 0:(703.8067,669.21765)
+:Sending Touch (ACTION_UP): 0:(704.97986,659.34735)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(500.0,778.0)
+:Sending Touch (ACTION_UP): 0:(510.42477,785.8859)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(259.0,546.0)
+:Sending Touch (ACTION_MOVE): 0:(266.04645,550.1747)
+:Sending Touch (ACTION_MOVE): 0:(268.3526,550.4962)
+:Sending Touch (ACTION_MOVE): 0:(272.1856,555.6628)
+:Sending Touch (ACTION_MOVE): 0:(275.22482,559.2147)
+:Sending Touch (ACTION_MOVE): 0:(282.33194,562.59546)
+:Sending Touch (ACTION_MOVE): 0:(286.76517,566.2272)
+:Sending Touch (ACTION_MOVE): 0:(289.81693,570.0927)
+:Sending Touch (ACTION_MOVE): 0:(290.59308,575.9849)
+:Sending Touch (ACTION_MOVE): 0:(291.2331,578.9437)
+:Sending Touch (ACTION_UP): 0:(297.72516,581.81195)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(356.0,583.0)
+:Sending Touch (ACTION_MOVE): 0:(356.05692,582.76154)
+:Sending Touch (ACTION_MOVE): 0:(358.23666,580.90137)
+:Sending Touch (ACTION_MOVE): 0:(360.91022,580.60284)
+:Sending Touch (ACTION_MOVE): 0:(364.17395,580.02167)
+:Sending Touch (ACTION_MOVE): 0:(366.2869,579.8604)
+:Sending Touch (ACTION_MOVE): 0:(367.00784,579.44403)
+:Sending Touch (ACTION_MOVE): 0:(370.185,577.8914)
+:Sending Touch (ACTION_MOVE): 0:(372.4182,577.4772)
+:Sending Touch (ACTION_MOVE): 0:(374.97693,576.5296)
+:Sending Touch (ACTION_UP): 0:(375.72824,575.90155)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5577)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(547.0,608.0)
+:Sending Touch (ACTION_UP): 0:(541.5271,612.4984)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5591)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5609)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(229.0,681.0)
+:Sending Touch (ACTION_UP): 0:(209.4093,682.7665)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(290.0,1197.0)
+:Sending Touch (ACTION_MOVE): 0:(291.93454,1195.9723)
+:Sending Touch (ACTION_UP): 0:(294.6442,1193.996)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(201.0,373.0)
+:Sending Touch (ACTION_UP): 0:(192.24915,374.44177)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(407.0,39.0)
+:Sending Touch (ACTION_UP): 0:(407.13724,26.955374)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(52.0,1152.0)
+:Sending Touch (ACTION_UP): 0:(57.608955,1151.9442)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(582.0,1212.0)
+:Sending Touch (ACTION_UP): 0:(582.95715,1211.1625)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(90.0,157.0)
+:Sending Touch (ACTION_UP): 0:(89.104645,142.86919)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(186.0,1077.0)
+:Sending Touch (ACTION_MOVE): 0:(186.30666,1084.8473)
+:Sending Touch (ACTION_MOVE): 0:(187.2477,1084.9249)
+:Sending Touch (ACTION_MOVE): 0:(187.51459,1103.656)
+:Sending Touch (ACTION_MOVE): 0:(188.2989,1113.6371)
+:Sending Touch (ACTION_MOVE): 0:(189.67049,1118.6305)
+:Sending Touch (ACTION_UP): 0:(190.00049,1122.5321)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(629.0,410.0)
+:Sending Touch (ACTION_UP): 0:(638.8509,427.58575)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(91.0,319.0)
+:Sending Touch (ACTION_MOVE): 0:(91.77563,301.2357)
+:Sending Touch (ACTION_MOVE): 0:(96.99193,294.669)
+:Sending Touch (ACTION_MOVE): 0:(98.17885,282.0888)
+:Sending Touch (ACTION_MOVE): 0:(102.31136,267.36154)
+:Sending Touch (ACTION_MOVE): 0:(108.13063,257.11044)
+:Sending Touch (ACTION_MOVE): 0:(111.34383,246.8319)
+:Sending Touch (ACTION_MOVE): 0:(115.73374,235.17595)
+:Sending Touch (ACTION_UP): 0:(120.22857,217.3679)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(301.0,551.0)
+:Sending Touch (ACTION_UP): 0:(292.3564,548.41187)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(254.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(259.61905,1032.1798)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(388.0,227.0)
+:Sending Touch (ACTION_UP): 0:(384.0187,224.27295)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(86.0,82.0)
+:Sending Touch (ACTION_MOVE): 0:(91.16696,99.78708)
+:Sending Touch (ACTION_MOVE): 0:(98.728065,102.12549)
+:Sending Touch (ACTION_MOVE): 0:(101.4429,114.19079)
+:Sending Touch (ACTION_UP): 0:(114.99326,125.705376)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(109.0,537.0)
+:Sending Touch (ACTION_MOVE): 0:(107.43831,552.53125)
+:Sending Touch (ACTION_MOVE): 0:(99.47654,554.9466)
+:Sending Touch (ACTION_MOVE): 0:(91.22601,558.7771)
+:Sending Touch (ACTION_MOVE): 0:(87.31576,562.72455)
+:Sending Touch (ACTION_UP): 0:(80.632484,578.5227)
+    //[calendar_time:2015-06-08 16:40:19.891  system_uptime:21785981]
+    // Sending event #300
+Sleeping for 500 milliseconds
+    //[calendar_time:2015-06-08 16:40:20.392  system_uptime:21786482]
+    // Sending event #300
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(535.0,898.0)
+:Sending Touch (ACTION_UP): 0:(551.7759,905.0865)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(681.0,38.0)
+:Sending Touch (ACTION_UP): 0:(684.0872,24.272165)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5645)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(669.0,757.0)
+:Sending Touch (ACTION_UP): 0:(668.89905,757.46814)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5659)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5673)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(624.0,120.0)
+:Sending Touch (ACTION_UP): 0:(623.02344,112.539764)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(174.0,585.0)
+:Sending Touch (ACTION_MOVE): 0:(186.86374,577.95496)
+:Sending Touch (ACTION_MOVE): 0:(201.44638,572.8018)
+:Sending Touch (ACTION_MOVE): 0:(207.27806,572.6157)
+:Sending Touch (ACTION_UP): 0:(216.85037,572.53265)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(191.0,1180.0)
+:Sending Touch (ACTION_MOVE): 0:(179.05273,1175.9495)
+:Sending Touch (ACTION_MOVE): 0:(177.46454,1175.9241)
+:Sending Touch (ACTION_MOVE): 0:(173.25914,1175.8861)
+:Sending Touch (ACTION_MOVE): 0:(164.75824,1165.7006)
+:Sending Touch (ACTION_MOVE): 0:(158.46841,1165.544)
+:Sending Touch (ACTION_MOVE): 0:(157.37129,1157.592)
+:Sending Touch (ACTION_UP): 0:(144.69196,1145.3634)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(81.0,552.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(88.948654,547.6345) 1:(711.0,902.0)
+:Sending Touch (ACTION_MOVE): 0:(99.37147,531.55334) 1:(711.33417,879.563)
+:Sending Touch (ACTION_MOVE): 0:(114.9127,513.87665) 1:(711.49677,877.9033)
+:Sending Touch (ACTION_MOVE): 0:(125.32004,497.6949) 1:(711.87897,864.08514)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(137.65814,494.09418) 1:(711.9249,856.81104)
+:Sending Touch (ACTION_UP): 0:(144.2338,477.98102)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(349.0,475.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(343.56107,482.06995) 1:(157.0,400.0)
+:Sending Touch (ACTION_MOVE): 0:(330.54733,492.89737) 1:(172.64867,402.09415)
+:Sending Touch (ACTION_MOVE): 0:(329.24564,503.231) 1:(178.38766,408.90292)
+:Sending Touch (ACTION_MOVE): 0:(315.87015,505.68585) 1:(191.0282,411.83728)
+:Sending Touch (ACTION_MOVE): 0:(306.01425,516.65656) 1:(201.00217,418.2865)
+:Sending Touch (ACTION_MOVE): 0:(295.72998,521.3018) 1:(216.01471,419.23682)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(284.8121,524.7523) 1:(230.71516,426.0565)
+:Sending Touch (ACTION_UP): 0:(277.4279,530.5938)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(38.0,733.0)
+:Sending Touch (ACTION_UP): 0:(37.818108,733.34357)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(336.0,816.0)
+:Sending Touch (ACTION_UP): 0:(327.6031,812.90546)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(198.0,249.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(217.11208,242.8743) 1:(156.0,40.0)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(228.36273,238.64508) 1:(145.37544,21.209097)
+:Sending Touch (ACTION_UP): 0:(232.36711,230.15126)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5726)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(538.0,178.0)
+:Sending Touch (ACTION_UP): 0:(528.2485,190.7183)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5740)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5754)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(391.0,293.0)
+:Sending Touch (ACTION_UP): 0:(387.2926,290.85016)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(75.0,904.0)
+:Sending Touch (ACTION_UP): 0:(72.82922,912.8716)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(500.0,614.0)
+:Sending Touch (ACTION_UP): 0:(511.97165,621.7777)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,546.0)
+:Sending Touch (ACTION_UP): 0:(283.64545,533.19916)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(712.0,222.0)
+:Sending Touch (ACTION_MOVE): 0:(713.08716,203.00723)
+:Sending Touch (ACTION_MOVE): 0:(720.0,199.95308)
+:Sending Touch (ACTION_MOVE): 0:(720.0,196.25862)
+:Sending Touch (ACTION_MOVE): 0:(720.0,176.83209)
+:Sending Touch (ACTION_UP): 0:(720.0,162.04468)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,1202.0)
+:Sending Touch (ACTION_UP): 0:(684.9882,1195.8676)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(637.0,829.0)
+:Sending Touch (ACTION_MOVE): 0:(632.2428,826.81195)
+:Sending Touch (ACTION_MOVE): 0:(627.0202,826.51056)
+:Sending Touch (ACTION_MOVE): 0:(624.2382,824.74115)
+:Sending Touch (ACTION_UP): 0:(620.40155,821.9885)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(719.0,1264.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1251.3804)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(98.0,702.0)
+:Sending Touch (ACTION_UP): 0:(88.97187,707.94836)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(365.0,863.0)
+:Sending Touch (ACTION_UP): 0:(353.67996,877.83514)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(333.0,658.0)
+:Sending Touch (ACTION_MOVE): 0:(343.91403,649.6853)
+:Sending Touch (ACTION_UP): 0:(351.4267,639.39484)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(520.0,763.0)
+:Sending Touch (ACTION_MOVE): 0:(520.7719,752.70764)
+:Sending Touch (ACTION_UP): 0:(526.0008,747.918)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(225.0,548.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(223.3338,547.78046) 1:(483.0,182.0)
+:Sending Touch (ACTION_MOVE): 0:(219.15137,544.9458) 1:(493.87164,179.53314)
+:Sending Touch (ACTION_MOVE): 0:(218.62747,544.0651) 1:(504.54907,175.04512)
+:Sending Touch (ACTION_MOVE): 0:(216.85365,541.5546) 1:(513.1613,173.8055)
+:Sending Touch (ACTION_MOVE): 0:(216.13191,539.04736) 1:(521.0337,173.68954)
+:Sending Touch (ACTION_MOVE): 0:(212.52579,537.53906) 1:(523.992,170.53084)
+:Sending Touch (ACTION_MOVE): 0:(209.59889,535.441) 1:(528.5626,168.60982)
+:Sending Touch (ACTION_MOVE): 0:(207.22856,535.40576) 1:(537.23505,163.96558)
+:Sending Touch (ACTION_MOVE): 0:(204.18124,533.0694) 1:(541.85364,159.53947)
+:Sending Touch (ACTION_MOVE): 0:(199.42694,531.6168) 1:(542.0973,158.76225)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(195.52463,530.9828) 1:(552.1893,155.58081)
+:Sending Touch (ACTION_UP): 0:(193.81529,529.2075)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(697.0,661.0)
+    //[calendar_time:2015-06-08 16:40:35.518  system_uptime:21801608]
+    // Sending event #400
+:Sending Touch (ACTION_UP): 0:(696.1735,648.7605)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(368.0,462.0)
+:Sending Touch (ACTION_UP): 0:(371.68353,459.9706)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(129.0,773.0)
+:Sending Touch (ACTION_UP): 0:(124.77499,783.38776)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(448.0,652.0)
+:Sending Touch (ACTION_UP): 0:(442.23172,648.25336)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(90.0,977.0)
+:Sending Touch (ACTION_MOVE): 0:(97.7935,961.1688)
+:Sending Touch (ACTION_MOVE): 0:(98.37556,956.6865)
+:Sending Touch (ACTION_MOVE): 0:(103.40202,953.1691)
+:Sending Touch (ACTION_MOVE): 0:(107.826546,944.359)
+:Sending Touch (ACTION_MOVE): 0:(114.93177,938.7883)
+:Sending Touch (ACTION_MOVE): 0:(122.04497,922.8514)
+:Sending Touch (ACTION_MOVE): 0:(123.92239,917.78687)
+:Sending Touch (ACTION_MOVE): 0:(124.486885,914.3906)
+:Sending Touch (ACTION_MOVE): 0:(126.459175,900.7948)
+:Sending Touch (ACTION_UP): 0:(128.7438,889.3517)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(477.0,1087.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(496.2337,1088.717) 1:(675.0,464.0)
+:Sending Touch (ACTION_MOVE): 0:(498.8148,1094.9973) 1:(673.3411,461.12457)
+:Sending Touch (ACTION_MOVE): 0:(519.0915,1100.5011) 1:(671.7353,458.50888)
+:Sending Touch (ACTION_MOVE): 0:(535.92554,1109.7637) 1:(667.36847,458.08557)
+:Sending Touch (ACTION_MOVE): 0:(554.6736,1111.1863) 1:(659.01605,457.22726)
+:Sending Touch (ACTION_MOVE): 0:(560.39136,1115.9426) 1:(659.0112,453.22125)
+:Sending Touch (ACTION_MOVE): 0:(572.6289,1125.3364) 1:(656.93005,450.09796)
+:Sending Touch (ACTION_MOVE): 0:(594.89526,1134.1871) 1:(650.49646,448.76666)
+:Sending Touch (ACTION_MOVE): 0:(609.9063,1137.5331) 1:(642.87714,446.88324)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(610.3638,1143.9067) 1:(640.4965,445.74094)
+:Sending Touch (ACTION_UP): 0:(626.0999,1152.5234)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(330.0,1195.0)
+:Sending Touch (ACTION_MOVE): 0:(335.3711,1188.9238)
+:Sending Touch (ACTION_MOVE): 0:(338.43762,1181.0803)
+:Sending Touch (ACTION_MOVE): 0:(343.05862,1178.0757)
+:Sending Touch (ACTION_MOVE): 0:(346.26184,1169.6912)
+:Sending Touch (ACTION_MOVE): 0:(350.3575,1166.2268)
+:Sending Touch (ACTION_MOVE): 0:(354.37033,1158.8594)
+:Sending Touch (ACTION_MOVE): 0:(355.95828,1153.2695)
+:Sending Touch (ACTION_MOVE): 0:(359.84427,1151.435)
+:Sending Touch (ACTION_UP): 0:(364.42798,1149.5942)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(709.0,1088.0)
+:Sending Touch (ACTION_UP): 0:(700.22723,1094.878)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(653.0,180.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(643.00995,189.19272) 1:(413.0,1201.0)
+:Sending Touch (ACTION_MOVE): 0:(630.09534,192.48007) 1:(417.17093,1201.9095)
+:Sending Touch (ACTION_MOVE): 0:(618.26624,207.19225) 1:(419.90082,1205.4974)
+:Sending Touch (ACTION_MOVE): 0:(610.99,208.8343) 1:(422.64697,1207.1277)
+:Sending Touch (ACTION_MOVE): 0:(608.8222,222.37907) 1:(429.24527,1207.8507)
+:Sending Touch (ACTION_MOVE): 0:(604.58136,234.00113) 1:(431.39984,1208.4226)
+:Sending Touch (ACTION_MOVE): 0:(595.298,241.81573) 1:(432.69116,1211.5292)
+:Sending Touch (ACTION_MOVE): 0:(579.13983,258.91702) 1:(432.69333,1211.9432)
+:Sending Touch (ACTION_MOVE): 0:(564.99335,261.15482) 1:(433.35294,1214.8689)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(548.5427,266.41965) 1:(439.46002,1217.8701)
+:Sending Touch (ACTION_UP): 0:(530.1023,273.0313)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5828)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5846)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(554.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(554.6283,1145.8328)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5861)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(162.0,406.0)
+:Sending Touch (ACTION_UP): 0:(150.03076,408.4544)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5878)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5892)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(401.0,735.0)
+:Sending Touch (ACTION_UP): 0:(380.5166,742.25104)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5907)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5924)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 5938)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(521.0,918.0)
+:Sending Touch (ACTION_UP): 0:(510.22888,919.61395)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 5953)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(508.0,516.0)
+:Sending Touch (ACTION_MOVE): 0:(511.98608,519.38367)
+:Sending Touch (ACTION_MOVE): 0:(527.0529,537.1932)
+:Sending Touch (ACTION_MOVE): 0:(537.30536,544.8191)
+:Sending Touch (ACTION_MOVE): 0:(546.5439,549.0484)
+:Sending Touch (ACTION_MOVE): 0:(557.346,563.7377)
+:Sending Touch (ACTION_MOVE): 0:(568.4165,569.2791)
+:Sending Touch (ACTION_MOVE): 0:(581.7193,579.7832)
+:Sending Touch (ACTION_MOVE): 0:(585.16187,599.67694)
+:Sending Touch (ACTION_UP): 0:(590.02374,615.83636)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(368.0,34.0)
+:Sending Touch (ACTION_UP): 0:(373.0236,31.692398)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(335.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(334.7758,1259.2499)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(351.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(332.58774,1219.3287)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(80.0,170.0)
+:Sending Touch (ACTION_MOVE): 0:(76.02224,151.83182)
+:Sending Touch (ACTION_MOVE): 0:(69.9563,142.79547)
+:Sending Touch (ACTION_MOVE): 0:(69.64461,127.319954)
+:Sending Touch (ACTION_MOVE): 0:(68.25756,121.141815)
+:Sending Touch (ACTION_UP): 0:(63.546917,105.52919)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(619.0,37.0)
+:Sending Touch (ACTION_MOVE): 0:(619.58075,31.599642)
+:Sending Touch (ACTION_UP): 0:(624.1216,21.988926)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(246.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(233.49022,1195.0107)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,588.0)
+:Sending Touch (ACTION_UP): 0:(542.6164,577.34674)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(694.0,1151.0)
+:Sending Touch (ACTION_UP): 0:(696.1904,1144.6399)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(330.0,633.0)
+:Sending Touch (ACTION_MOVE): 0:(324.81668,628.06793)
+:Sending Touch (ACTION_MOVE): 0:(323.73843,623.59845)
+:Sending Touch (ACTION_MOVE): 0:(319.12277,618.384)
+    //[calendar_time:2015-06-08 16:40:48.420  system_uptime:21814511]
+    // Sending event #500
+:Sending Touch (ACTION_MOVE): 0:(318.2756,612.57275)
+:Sending Touch (ACTION_MOVE): 0:(312.77432,612.0105)
+:Sending Touch (ACTION_MOVE): 0:(309.8616,611.4752)
+:Sending Touch (ACTION_MOVE): 0:(305.15524,609.2443)
+:Sending Touch (ACTION_MOVE): 0:(301.2674,602.9734)
+:Sending Touch (ACTION_MOVE): 0:(294.626,596.1717)
+:Sending Touch (ACTION_UP): 0:(292.57764,594.3517)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(42.0,596.0)
+:Sending Touch (ACTION_UP): 0:(55.667477,597.25305)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(50.0,868.0)
+:Sending Touch (ACTION_UP): 0:(38.252605,867.54663)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(325.0,705.0)
+:Sending Touch (ACTION_MOVE): 0:(312.7595,709.1866)
+:Sending Touch (ACTION_MOVE): 0:(294.72507,710.1054)
+:Sending Touch (ACTION_MOVE): 0:(277.72098,711.7815)
+:Sending Touch (ACTION_MOVE): 0:(262.78806,715.02057)
+:Sending Touch (ACTION_MOVE): 0:(257.80405,719.06836)
+:Sending Touch (ACTION_MOVE): 0:(241.98215,720.88104)
+:Sending Touch (ACTION_UP): 0:(236.13345,722.3098)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(227.0,874.0)
+:Sending Touch (ACTION_MOVE): 0:(221.25401,882.3571)
+:Sending Touch (ACTION_MOVE): 0:(221.09192,891.3117)
+:Sending Touch (ACTION_UP): 0:(220.98778,891.3539)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(691.0,1029.0)
+:Sending Touch (ACTION_UP): 0:(697.395,1039.8121)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(133.0,983.0)
+:Sending Touch (ACTION_UP): 0:(133.69794,986.447)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(471.0,807.0)
+:Sending Touch (ACTION_UP): 0:(467.23224,803.49634)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(214.0,369.0)
+:Sending Touch (ACTION_UP): 0:(215.13593,374.3751)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(685.0,168.0)
+:Sending Touch (ACTION_UP): 0:(678.6265,160.48326)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(17.0,367.0)
+:Sending Touch (ACTION_MOVE): 0:(19.56466,366.0714)
+:Sending Touch (ACTION_MOVE): 0:(25.625275,362.55112)
+:Sending Touch (ACTION_MOVE): 0:(28.76121,358.64975)
+:Sending Touch (ACTION_UP): 0:(29.20596,358.63962)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(255.0,105.0)
+:Sending Touch (ACTION_UP): 0:(254.52866,97.533615)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(135.0,874.0)
+:Sending Touch (ACTION_UP): 0:(126.92978,875.1742)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(157.0,323.0)
+:Sending Touch (ACTION_MOVE): 0:(155.4189,319.69604)
+:Sending Touch (ACTION_MOVE): 0:(151.67755,308.6823)
+:Sending Touch (ACTION_MOVE): 0:(146.27806,304.00635)
+:Sending Touch (ACTION_MOVE): 0:(142.9747,297.62946)
+:Sending Touch (ACTION_UP): 0:(141.78835,289.9587)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(92.0,992.0)
+:Sending Touch (ACTION_UP): 0:(89.902176,994.61835)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(261.0,1039.0)
+:Sending Touch (ACTION_UP): 0:(273.96362,1033.7903)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(554.0,979.0)
+:Sending Touch (ACTION_UP): 0:(553.726,983.108)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(547.0,861.0)
+:Sending Touch (ACTION_UP): 0:(565.21704,868.1218)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(149.0,561.0)
+:Sending Touch (ACTION_MOVE): 0:(165.42023,575.0307)
+:Sending Touch (ACTION_MOVE): 0:(180.53108,596.1855)
+:Sending Touch (ACTION_UP): 0:(195.92911,606.0994)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(256.0,50.0)
+:Sending Touch (ACTION_MOVE): 0:(269.35413,44.16555)
+:Sending Touch (ACTION_MOVE): 0:(278.80954,37.557312)
+:Sending Touch (ACTION_MOVE): 0:(287.13406,35.591362)
+:Sending Touch (ACTION_MOVE): 0:(294.81177,31.82777)
+:Sending Touch (ACTION_MOVE): 0:(299.0041,31.37152)
+:Sending Touch (ACTION_MOVE): 0:(310.9065,30.560162)
+:Sending Touch (ACTION_UP): 0:(318.0332,26.168879)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(352.0,1104.0)
+:Sending Touch (ACTION_UP): 0:(355.16904,1088.6638)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(592.0,125.0)
+:Sending Touch (ACTION_MOVE): 0:(597.1722,113.39557)
+:Sending Touch (ACTION_UP): 0:(601.49976,103.35216)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(214.0,713.0)
+:Sending Touch (ACTION_UP): 0:(201.13832,712.60004)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(128.0,1272.0)
+:Sending Touch (ACTION_UP): 0:(137.8696,1280.0)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6034)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6048)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6062)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(292.0,471.0)
+:Sending Touch (ACTION_UP): 0:(291.18295,460.93506)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(594.0,328.0)
+:Sending Touch (ACTION_MOVE): 0:(615.83624,325.8505)
+:Sending Touch (ACTION_MOVE): 0:(621.09094,323.60776)
+:Sending Touch (ACTION_UP): 0:(639.4531,323.11334)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(455.0,283.0)
+:Sending Touch (ACTION_UP): 0:(445.63998,279.85626)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(332.0,1228.0)
+:Sending Touch (ACTION_MOVE): 0:(339.60678,1232.5573)
+:Sending Touch (ACTION_MOVE): 0:(342.2335,1236.1012)
+:Sending Touch (ACTION_UP): 0:(354.77667,1236.8507)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(586.0,1255.0)
+:Sending Touch (ACTION_UP): 0:(573.8878,1256.0184)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(81.0,44.0)
+:Sending Touch (ACTION_MOVE): 0:(74.72772,35.403618)
+    //[calendar_time:2015-06-08 16:41:05.749  system_uptime:21831840]
+    // Sending event #600
+:Sending Touch (ACTION_MOVE): 0:(68.33668,13.914129)
+:Sending Touch (ACTION_MOVE): 0:(62.66952,7.735637)
+:Sending Touch (ACTION_UP): 0:(61.94488,6.6798368)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(626.0,1199.0)
+:Sending Touch (ACTION_MOVE): 0:(636.6061,1198.1506)
+:Sending Touch (ACTION_MOVE): 0:(639.5275,1191.564)
+:Sending Touch (ACTION_MOVE): 0:(641.8423,1184.3829)
+:Sending Touch (ACTION_MOVE): 0:(649.8242,1176.0216)
+:Sending Touch (ACTION_MOVE): 0:(655.4265,1166.512)
+:Sending Touch (ACTION_UP): 0:(656.7499,1157.1483)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(387.0,1215.0)
+:Sending Touch (ACTION_MOVE): 0:(369.9803,1229.6847)
+:Sending Touch (ACTION_MOVE): 0:(352.7248,1231.4823)
+:Sending Touch (ACTION_MOVE): 0:(338.55762,1232.8197)
+:Sending Touch (ACTION_MOVE): 0:(332.48743,1243.504)
+:Sending Touch (ACTION_MOVE): 0:(323.8793,1255.7374)
+:Sending Touch (ACTION_MOVE): 0:(305.59515,1259.0137)
+:Sending Touch (ACTION_UP): 0:(288.95477,1273.0491)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(523.0,495.0)
+:Sending Touch (ACTION_UP): 0:(515.49115,482.43207)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(715.0,1173.0)
+:Sending Touch (ACTION_UP): 0:(694.5615,1174.917)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(228.0,1042.0)
+:Sending Touch (ACTION_UP): 0:(236.40456,1054.9713)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(394.0,959.0)
+:Sending Touch (ACTION_UP): 0:(408.43063,971.0435)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(496.0,448.0)
+:Sending Touch (ACTION_UP): 0:(510.8767,431.52518)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(130.0,327.0)
+:Sending Touch (ACTION_UP): 0:(118.46116,320.072)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(67.0,1107.0)
+:Sending Touch (ACTION_UP): 0:(67.38606,1101.0193)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(342.0,559.0)
+:Sending Touch (ACTION_MOVE): 0:(345.70837,558.1785)
+:Sending Touch (ACTION_MOVE): 0:(350.2463,557.18085)
+:Sending Touch (ACTION_MOVE): 0:(356.93396,557.1776)
+:Sending Touch (ACTION_MOVE): 0:(363.14188,556.05536)
+:Sending Touch (ACTION_MOVE): 0:(366.05206,555.35266)
+:Sending Touch (ACTION_MOVE): 0:(384.9306,555.335)
+:Sending Touch (ACTION_MOVE): 0:(398.7793,554.3812)
+:Sending Touch (ACTION_MOVE): 0:(417.52832,553.8272)
+:Sending Touch (ACTION_MOVE): 0:(437.69635,552.78485)
+:Sending Touch (ACTION_UP): 0:(447.54666,552.78485)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(301.0,471.0)
+:Sending Touch (ACTION_MOVE): 0:(303.536,469.0673)
+:Sending Touch (ACTION_UP): 0:(312.34888,467.4247)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6114)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(627.0,1226.0)
+:Sending Touch (ACTION_UP): 0:(627.28503,1235.549)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6128)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6143)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(401.0,1163.0)
+:Sending Touch (ACTION_MOVE): 0:(403.33282,1156.4392)
+:Sending Touch (ACTION_UP): 0:(403.4201,1154.2787)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(468.0,1106.0)
+:Sending Touch (ACTION_MOVE): 0:(448.36234,1105.6483)
+:Sending Touch (ACTION_MOVE): 0:(432.39816,1101.1876)
+:Sending Touch (ACTION_MOVE): 0:(431.3751,1099.5894)
+:Sending Touch (ACTION_MOVE): 0:(417.52606,1093.4153)
+:Sending Touch (ACTION_MOVE): 0:(411.5815,1090.118)
+:Sending Touch (ACTION_MOVE): 0:(401.4428,1085.8673)
+:Sending Touch (ACTION_MOVE): 0:(382.31558,1082.2823)
+:Sending Touch (ACTION_MOVE): 0:(382.0203,1080.7579)
+:Sending Touch (ACTION_MOVE): 0:(379.92603,1075.7329)
+:Sending Touch (ACTION_UP): 0:(362.49933,1072.7485)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(25.0,44.0)
+:Sending Touch (ACTION_UP): 0:(36.720917,33.34122)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(557.0,895.0)
+:Sending Touch (ACTION_UP): 0:(553.28064,895.5684)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(144.0,632.0)
+:Sending Touch (ACTION_UP): 0:(145.03928,635.3538)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(183.0,483.0)
+:Sending Touch (ACTION_UP): 0:(161.07144,490.30542)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(513.0,990.0)
+:Sending Touch (ACTION_UP): 0:(516.7759,989.0937)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(653.0,836.0)
+:Sending Touch (ACTION_UP): 0:(653.5833,859.01013)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(220.0,836.0)
+:Sending Touch (ACTION_UP): 0:(220.0016,837.2022)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(623.0,263.0)
+:Sending Touch (ACTION_UP): 0:(629.12024,256.03827)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(196.0,773.0)
+:Sending Touch (ACTION_UP): 0:(209.20685,765.4956)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(413.0,858.0)
+:Sending Touch (ACTION_UP): 0:(413.77356,852.8602)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(91.0,494.0)
+:Sending Touch (ACTION_UP): 0:(99.49806,492.60657)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6169)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(260.0,509.0)
+:Sending Touch (ACTION_MOVE): 0:(259.3541,509.24997)
+:Sending Touch (ACTION_MOVE): 0:(250.03188,514.29504)
+:Sending Touch (ACTION_MOVE): 0:(237.53595,517.9802)
+:Sending Touch (ACTION_MOVE): 0:(227.58531,518.46155)
+:Sending Touch (ACTION_MOVE): 0:(222.30498,521.5184)
+:Sending Touch (ACTION_UP): 0:(207.77213,528.2644)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6184)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6198)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(570.0,0.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(583.70355,0.0) 1:(692.0,597.0)
+:Sending Touch (ACTION_MOVE): 0:(597.24927,0.0) 1:(683.8104,603.53357)
+:Sending Touch (ACTION_MOVE): 0:(597.7832,0.0) 1:(680.13257,607.1186)
+:Sending Touch (ACTION_MOVE): 0:(610.83563,0.0) 1:(675.83997,621.34973)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(619.77515,0.0) 1:(672.0697,633.46484)
+    //[calendar_time:2015-06-08 16:41:21.431  system_uptime:21847521]
+    // Sending event #700
+:Sending Touch (ACTION_UP): 0:(636.2157,0.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(57.0,1259.0)
+:Sending Touch (ACTION_MOVE): 0:(53.267868,1255.1515)
+:Sending Touch (ACTION_MOVE): 0:(45.159027,1253.1948)
+:Sending Touch (ACTION_MOVE): 0:(38.217274,1246.7631)
+:Sending Touch (ACTION_MOVE): 0:(26.514427,1245.8407)
+:Sending Touch (ACTION_MOVE): 0:(17.234915,1236.789)
+:Sending Touch (ACTION_MOVE): 0:(9.419914,1233.6366)
+:Sending Touch (ACTION_UP): 0:(3.9694939,1226.7142)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(477.0,476.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(482.84644,480.35272) 1:(245.0,414.0)
+:Sending Touch (ACTION_MOVE): 0:(487.75473,497.43646) 1:(229.46693,399.22504)
+:Sending Touch (ACTION_MOVE): 0:(494.05933,510.60474) 1:(227.75342,392.77213)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(495.48544,515.79626) 1:(217.36499,378.88635)
+:Sending Touch (ACTION_UP): 0:(501.7715,535.2281)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(404.0,95.0)
+:Sending Touch (ACTION_UP): 0:(393.5067,96.58776)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(348.0,502.0)
+:Sending Touch (ACTION_MOVE): 0:(348.8671,507.08734)
+:Sending Touch (ACTION_MOVE): 0:(349.9179,521.72327)
+:Sending Touch (ACTION_MOVE): 0:(350.3497,528.5723)
+:Sending Touch (ACTION_MOVE): 0:(350.80566,543.78546)
+:Sending Touch (ACTION_UP): 0:(351.85815,560.2335)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(560.0,384.0)
+:Sending Touch (ACTION_MOVE): 0:(554.05896,401.66782)
+:Sending Touch (ACTION_MOVE): 0:(552.1932,406.077)
+:Sending Touch (ACTION_MOVE): 0:(551.0636,409.70392)
+:Sending Touch (ACTION_MOVE): 0:(542.4763,424.69666)
+:Sending Touch (ACTION_MOVE): 0:(531.71265,429.96567)
+:Sending Touch (ACTION_UP): 0:(524.80096,436.19586)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(60.0,491.0)
+:Sending Touch (ACTION_UP): 0:(59.49744,492.70026)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(614.0,605.0)
+:Sending Touch (ACTION_MOVE): 0:(622.4491,605.1056)
+:Sending Touch (ACTION_UP): 0:(634.267,606.00854)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(131.0,299.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(125.93225,287.2326) 1:(353.0,193.0)
+:Sending Touch (ACTION_MOVE): 0:(112.7294,273.87946) 1:(353.18146,192.14793)
+:Sending Touch (ACTION_MOVE): 0:(102.15822,262.6048) 1:(355.0056,191.05263)
+:Sending Touch (ACTION_MOVE): 0:(95.73912,257.45657) 1:(355.9065,189.83618)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(94.059456,252.61366) 1:(356.919,189.45793)
+:Sending Touch (ACTION_UP): 0:(89.21553,233.70886)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(700.0,409.0)
+:Sending Touch (ACTION_MOVE): 0:(699.4881,426.54147)
+:Sending Touch (ACTION_MOVE): 0:(699.01385,444.46542)
+:Sending Touch (ACTION_MOVE): 0:(697.1674,458.16574)
+:Sending Touch (ACTION_MOVE): 0:(695.3613,474.68057)
+:Sending Touch (ACTION_MOVE): 0:(693.4271,494.47864)
+:Sending Touch (ACTION_MOVE): 0:(690.5673,497.56854)
+:Sending Touch (ACTION_MOVE): 0:(689.8906,511.07935)
+:Sending Touch (ACTION_MOVE): 0:(689.3414,521.3313)
+:Sending Touch (ACTION_UP): 0:(688.95233,541.17334)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(369.0,1257.0)
+:Sending Touch (ACTION_MOVE): 0:(357.3415,1257.7037)
+:Sending Touch (ACTION_MOVE): 0:(355.28897,1258.7856)
+:Sending Touch (ACTION_MOVE): 0:(355.12848,1259.3375)
+:Sending Touch (ACTION_MOVE): 0:(353.88324,1260.4823)
+:Sending Touch (ACTION_UP): 0:(341.8673,1261.5648)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(294.0,301.0)
+:Sending Touch (ACTION_UP): 0:(296.57416,302.5088)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(409.0,237.0)
+:Sending Touch (ACTION_UP): 0:(406.41794,235.63644)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(5.0,709.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(8.150076,708.47046) 1:(555.0,1078.0)
+:Sending Touch (ACTION_MOVE): 0:(18.669773,703.58936) 1:(551.91876,1082.7468)
+:Sending Touch (ACTION_MOVE): 0:(23.829752,697.3989) 1:(550.75586,1089.3)
+:Sending Touch (ACTION_MOVE): 0:(28.001003,685.06256) 1:(549.1517,1101.1909)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(28.320805,672.5083) 1:(545.95465,1110.1882)
+:Sending Touch (ACTION_UP): 0:(34.238575,661.93353)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(460.0,836.0)
+:Sending Touch (ACTION_UP): 0:(452.17084,850.6261)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(272.0,126.0)
+:Sending Touch (ACTION_MOVE): 0:(274.9163,137.78203)
+:Sending Touch (ACTION_MOVE): 0:(291.1663,141.78175)
+:Sending Touch (ACTION_UP): 0:(306.63406,153.7591)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(107.0,919.0)
+:Sending Touch (ACTION_MOVE): 0:(115.41757,901.82916)
+:Sending Touch (ACTION_MOVE): 0:(122.65878,896.7583)
+:Sending Touch (ACTION_MOVE): 0:(124.96491,882.36096)
+:Sending Touch (ACTION_UP): 0:(126.44978,870.12695)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(65.0,678.0)
+:Sending Touch (ACTION_UP): 0:(63.11712,666.42365)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(77.0,926.0)
+:Sending Touch (ACTION_UP): 0:(75.73545,921.4505)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(591.0,154.0)
+:Sending Touch (ACTION_MOVE): 0:(594.49603,147.38777)
+:Sending Touch (ACTION_MOVE): 0:(598.5167,140.67526)
+:Sending Touch (ACTION_MOVE): 0:(602.24945,136.52904)
+:Sending Touch (ACTION_MOVE): 0:(605.86176,134.06856)
+    //[calendar_time:2015-06-08 16:41:34.949  system_uptime:21861040]
+    // Sending event #800
+:Sending Touch (ACTION_UP): 0:(608.53625,131.87077)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(674.0,1038.0)
+:Sending Touch (ACTION_UP): 0:(688.74725,1049.6876)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(410.0,231.0)
+:Sending Touch (ACTION_MOVE): 0:(392.26266,237.86829)
+:Sending Touch (ACTION_MOVE): 0:(377.97745,247.12648)
+:Sending Touch (ACTION_MOVE): 0:(357.2287,251.40323)
+:Sending Touch (ACTION_MOVE): 0:(354.8239,254.87247)
+:Sending Touch (ACTION_MOVE): 0:(334.9663,260.06573)
+:Sending Touch (ACTION_MOVE): 0:(311.33487,260.27054)
+:Sending Touch (ACTION_MOVE): 0:(290.88733,263.88834)
+:Sending Touch (ACTION_MOVE): 0:(283.083,264.50375)
+:Sending Touch (ACTION_MOVE): 0:(263.5888,268.50037)
+:Sending Touch (ACTION_UP): 0:(263.3893,273.02682)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(390.0,832.0)
+:Sending Touch (ACTION_UP): 0:(395.71307,826.4398)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(414.0,633.0)
+:Sending Touch (ACTION_MOVE): 0:(413.4095,616.68854)
+:Sending Touch (ACTION_MOVE): 0:(413.2306,616.6727)
+:Sending Touch (ACTION_MOVE): 0:(412.93842,601.3885)
+:Sending Touch (ACTION_UP): 0:(412.3776,593.7328)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6256)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(482.0,647.0)
+:Sending Touch (ACTION_MOVE): 0:(470.02713,638.0809)
+:Sending Touch (ACTION_MOVE): 0:(457.62964,632.02795)
+:Sending Touch (ACTION_MOVE): 0:(450.10773,631.83026)
+:Sending Touch (ACTION_MOVE): 0:(440.16632,631.7217)
+:Sending Touch (ACTION_UP): 0:(435.16064,629.36053)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6271)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6287)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(203.0,286.0)
+:Sending Touch (ACTION_UP): 0:(192.24054,293.25867)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(538.0,229.0)
+:Sending Touch (ACTION_UP): 0:(536.8464,235.98798)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(71.0,308.0)
+:Sending Touch (ACTION_UP): 0:(67.20833,315.64868)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6303)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6317)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(363.0,859.0)
+:Sending Touch (ACTION_UP): 0:(361.65512,858.9564)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6333)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(611.0,67.0)
+:Sending Touch (ACTION_MOVE): 0:(623.43097,70.675514)
+:Sending Touch (ACTION_MOVE): 0:(629.4338,73.695755)
+:Sending Touch (ACTION_UP): 0:(634.3268,74.75851)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(73.0,744.0)
+:Sending Touch (ACTION_UP): 0:(83.565834,730.8633)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(249.0,926.0)
+:Sending Touch (ACTION_MOVE): 0:(245.7688,923.0435)
+:Sending Touch (ACTION_MOVE): 0:(245.38643,921.241)
+:Sending Touch (ACTION_MOVE): 0:(242.42964,920.71576)
+:Sending Touch (ACTION_UP): 0:(239.60773,919.12836)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(618.0,1274.0)
+:Sending Touch (ACTION_UP): 0:(599.3754,1271.883)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(8.0,173.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,179.9317)
+:Sending Touch (ACTION_MOVE): 0:(0.0,180.58305)
+:Sending Touch (ACTION_MOVE): 0:(0.0,180.90063)
+:Sending Touch (ACTION_MOVE): 0:(0.0,193.0419)
+:Sending Touch (ACTION_MOVE): 0:(0.0,200.39047)
+:Sending Touch (ACTION_MOVE): 0:(0.0,209.23788)
+:Sending Touch (ACTION_MOVE): 0:(0.0,211.09775)
+:Sending Touch (ACTION_UP): 0:(0.0,215.75937)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(515.0,890.0)
+:Sending Touch (ACTION_MOVE): 0:(511.7422,891.60016)
+:Sending Touch (ACTION_MOVE): 0:(510.23245,900.7058)
+:Sending Touch (ACTION_MOVE): 0:(506.16937,905.834)
+:Sending Touch (ACTION_UP): 0:(503.49503,911.4919)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(164.0,513.0)
+:Sending Touch (ACTION_MOVE): 0:(167.80595,511.0607)
+:Sending Touch (ACTION_MOVE): 0:(168.85545,508.20636)
+:Sending Touch (ACTION_MOVE): 0:(178.54097,497.42157)
+:Sending Touch (ACTION_UP): 0:(184.12349,495.85696)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(111.0,530.0)
+:Sending Touch (ACTION_UP): 0:(102.1141,527.2975)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(388.0,1034.0)
+:Sending Touch (ACTION_MOVE): 0:(388.72025,1037.4647)
+:Sending Touch (ACTION_MOVE): 0:(390.46857,1046.4927)
+:Sending Touch (ACTION_MOVE): 0:(391.20544,1066.5748)
+:Sending Touch (ACTION_UP): 0:(392.6778,1086.649)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(144.0,701.0)
+:Sending Touch (ACTION_MOVE): 0:(144.30733,695.666)
+:Sending Touch (ACTION_MOVE): 0:(144.9271,694.5802)
+:Sending Touch (ACTION_MOVE): 0:(145.90382,686.3382)
+:Sending Touch (ACTION_MOVE): 0:(146.87764,682.75226)
+:Sending Touch (ACTION_MOVE): 0:(146.90717,679.5036)
+:Sending Touch (ACTION_MOVE): 0:(147.23808,675.3866)
+:Sending Touch (ACTION_MOVE): 0:(147.3893,673.1757)
+:Sending Touch (ACTION_MOVE): 0:(147.42085,667.7218)
+:Sending Touch (ACTION_MOVE): 0:(148.0451,665.53876)
+:Sending Touch (ACTION_UP): 0:(148.86559,659.23816)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(462.0,654.0)
+:Sending Touch (ACTION_MOVE): 0:(459.36984,664.6095)
+:Sending Touch (ACTION_MOVE): 0:(453.07407,671.3863)
+:Sending Touch (ACTION_MOVE): 0:(447.63464,684.07635)
+:Sending Touch (ACTION_MOVE): 0:(445.25446,685.10266)
+:Sending Touch (ACTION_MOVE): 0:(443.13867,699.75653)
+:Sending Touch (ACTION_MOVE): 0:(441.7343,715.6466)
+:Sending Touch (ACTION_MOVE): 0:(437.38773,725.0342)
+:Sending Touch (ACTION_MOVE): 0:(431.72632,737.174)
+:Sending Touch (ACTION_UP): 0:(427.7909,749.45087)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(635.0,620.0)
+:Sending Touch (ACTION_MOVE): 0:(638.5015,637.7971)
+:Sending Touch (ACTION_MOVE): 0:(642.8796,655.2257)
+    //[calendar_time:2015-06-08 16:41:46.850  system_uptime:21872940]
+    // Sending event #900
+:Sending Touch (ACTION_MOVE): 0:(644.71423,660.4565)
+:Sending Touch (ACTION_MOVE): 0:(648.3558,662.9541)
+:Sending Touch (ACTION_UP): 0:(650.2371,669.80115)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(30.0,1234.0)
+:Sending Touch (ACTION_MOVE): 0:(32.034763,1236.0048)
+:Sending Touch (ACTION_MOVE): 0:(37.152733,1239.2601)
+:Sending Touch (ACTION_MOVE): 0:(42.55848,1240.0323)
+:Sending Touch (ACTION_MOVE): 0:(45.373833,1240.7589)
+:Sending Touch (ACTION_MOVE): 0:(50.651794,1240.9753)
+:Sending Touch (ACTION_MOVE): 0:(55.24025,1241.0093)
+:Sending Touch (ACTION_MOVE): 0:(61.36022,1242.4252)
+:Sending Touch (ACTION_MOVE): 0:(61.730667,1242.7124)
+:Sending Touch (ACTION_UP): 0:(64.29024,1243.6222)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(624.0,1117.0)
+:Sending Touch (ACTION_UP): 0:(626.73364,1124.6487)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(685.0,444.0)
+:Sending Touch (ACTION_UP): 0:(683.9912,457.2459)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(120.0,1206.0)
+:Sending Touch (ACTION_MOVE): 0:(119.24345,1205.0457)
+:Sending Touch (ACTION_MOVE): 0:(109.38797,1199.5604)
+:Sending Touch (ACTION_MOVE): 0:(106.06103,1196.6882)
+:Sending Touch (ACTION_MOVE): 0:(91.646774,1190.4403)
+:Sending Touch (ACTION_UP): 0:(88.650696,1188.1996)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(148.0,1166.0)
+:Sending Touch (ACTION_UP): 0:(141.01878,1154.2264)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(484.0,1214.0)
+:Sending Touch (ACTION_MOVE): 0:(483.7724,1217.9742)
+:Sending Touch (ACTION_MOVE): 0:(481.95132,1218.9258)
+:Sending Touch (ACTION_MOVE): 0:(478.1655,1219.1748)
+:Sending Touch (ACTION_MOVE): 0:(472.98636,1222.6101)
+:Sending Touch (ACTION_MOVE): 0:(467.78857,1222.6377)
+:Sending Touch (ACTION_MOVE): 0:(466.592,1226.1819)
+:Sending Touch (ACTION_MOVE): 0:(460.9792,1228.9064)
+:Sending Touch (ACTION_UP): 0:(456.83414,1231.473)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(531.0,1011.0)
+:Sending Touch (ACTION_MOVE): 0:(533.37976,1018.4985)
+:Sending Touch (ACTION_UP): 0:(534.3121,1037.4208)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(579.0,1122.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(577.40283,1124.0203) 1:(504.0,595.0)
+:Sending Touch (ACTION_MOVE): 0:(577.1651,1124.9791) 1:(503.28616,600.6798)
+:Sending Touch (ACTION_MOVE): 0:(574.7942,1130.2839) 1:(500.57928,601.85284)
+:Sending Touch (ACTION_MOVE): 0:(572.305,1131.3003) 1:(497.85162,613.1452)
+:Sending Touch (ACTION_MOVE): 0:(570.3895,1134.3031) 1:(495.75427,625.05817)
+:Sending Touch (ACTION_MOVE): 0:(569.63354,1135.0164) 1:(494.90518,638.68744)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(566.7157,1135.7913) 1:(493.57144,649.6041)
+:Sending Touch (ACTION_UP): 0:(565.69934,1136.8629)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(42.0,646.0)
+:Sending Touch (ACTION_UP): 0:(34.813293,646.24225)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(530.0,427.0)
+:Sending Touch (ACTION_UP): 0:(530.99695,422.71503)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(275.0,271.0)
+:Sending Touch (ACTION_MOVE): 0:(292.82947,265.15942)
+:Sending Touch (ACTION_MOVE): 0:(310.27277,258.7157)
+:Sending Touch (ACTION_MOVE): 0:(314.3514,256.37103)
+:Sending Touch (ACTION_MOVE): 0:(325.04852,251.3272)
+:Sending Touch (ACTION_MOVE): 0:(326.6518,245.75725)
+:Sending Touch (ACTION_MOVE): 0:(340.6058,241.8888)
+:Sending Touch (ACTION_MOVE): 0:(362.19318,233.19525)
+:Sending Touch (ACTION_MOVE): 0:(377.13672,230.53813)
+:Sending Touch (ACTION_MOVE): 0:(392.74298,227.53761)
+:Sending Touch (ACTION_UP): 0:(401.6782,222.0101)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(563.0,199.0)
+:Sending Touch (ACTION_UP): 0:(555.8871,205.86159)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(260.0,686.0)
+:Sending Touch (ACTION_UP): 0:(265.1255,697.7224)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(242.0,824.0)
+:Sending Touch (ACTION_MOVE): 0:(245.27058,805.25256)
+:Sending Touch (ACTION_UP): 0:(251.83812,790.3835)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(257.0,1189.0)
+:Sending Touch (ACTION_MOVE): 0:(252.12473,1196.5804)
+:Sending Touch (ACTION_MOVE): 0:(251.88045,1197.0875)
+:Sending Touch (ACTION_MOVE): 0:(249.21487,1218.7821)
+:Sending Touch (ACTION_MOVE): 0:(244.16896,1231.445)
+:Sending Touch (ACTION_MOVE): 0:(243.87729,1234.7963)
+:Sending Touch (ACTION_MOVE): 0:(238.39622,1255.5562)
+:Sending Touch (ACTION_UP): 0:(236.11684,1257.8119)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(13.0,348.0)
+:Sending Touch (ACTION_UP): 0:(10.260457,344.63437)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,608.0)
+:Sending Touch (ACTION_UP): 0:(244.31386,607.9882)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(153.0,880.0)
+:Sending Touch (ACTION_UP): 0:(154.53014,881.73956)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(710.0,685.0)
+:Sending Touch (ACTION_MOVE): 0:(720.0,686.176)
+:Sending Touch (ACTION_MOVE): 0:(720.0,693.2836)
+:Sending Touch (ACTION_MOVE): 0:(720.0,699.638)
+:Sending Touch (ACTION_MOVE): 0:(720.0,705.63116)
+:Sending Touch (ACTION_MOVE): 0:(720.0,712.01483)
+:Sending Touch (ACTION_MOVE): 0:(720.0,717.3528)
+:Sending Touch (ACTION_MOVE): 0:(720.0,726.7932)
+:Sending Touch (ACTION_MOVE): 0:(720.0,733.9429)
+:Sending Touch (ACTION_UP): 0:(720.0,741.1726)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6394)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(517.0,407.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(517.1639,402.98114) 1:(473.0,92.0)
+:Sending Touch (ACTION_MOVE): 0:(518.53613,400.46176) 1:(463.94254,99.342224)
+:Sending Touch (ACTION_MOVE): 0:(519.84265,400.3753) 1:(457.4204,107.86043)
+    //[calendar_time:2015-06-08 16:41:58.927  system_uptime:21885017]
+    // Sending event #1000
+:Sending Touch (ACTION_MOVE): 0:(520.04486,394.81802) 1:(454.02185,115.199844)
+:Sending Touch (ACTION_MOVE): 0:(521.1479,392.69968) 1:(446.2865,126.93793)
+:Sending Touch (ACTION_MOVE): 0:(521.4884,388.63342) 1:(437.46472,132.11494)
+:Sending Touch (ACTION_MOVE): 0:(522.88214,385.18774) 1:(436.01135,145.4389)
+:Sending Touch (ACTION_MOVE): 0:(523.65137,383.6654) 1:(433.93195,146.54881)
+:Sending Touch (ACTION_MOVE): 0:(524.2394,381.92957) 1:(433.3476,159.12952)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(524.26056,380.2602) 1:(424.71133,161.35849)
+:Sending Touch (ACTION_UP): 0:(525.68964,377.69165)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6408)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6422)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(538.0,331.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(543.91895,329.87527) 1:(391.0,283.0)
+:Sending Touch (ACTION_MOVE): 0:(548.83923,329.06894) 1:(383.0901,283.27554)
+:Sending Touch (ACTION_MOVE): 0:(549.6474,328.92303) 1:(377.7621,285.20056)
+:Sending Touch (ACTION_MOVE): 0:(552.3922,328.2075) 1:(367.1364,296.0626)
+:Sending Touch (ACTION_MOVE): 0:(556.6405,328.0603) 1:(366.7664,304.5)
+:Sending Touch (ACTION_MOVE): 0:(560.7018,327.63013) 1:(355.8993,310.54303)
+:Sending Touch (ACTION_MOVE): 0:(563.0996,326.52963) 1:(350.20892,316.0215)
+:Sending Touch (ACTION_MOVE): 0:(566.9495,325.50284) 1:(343.78857,318.8981)
+:Sending Touch (ACTION_MOVE): 0:(569.0042,324.14886) 1:(340.51804,321.155)
+:Sending Touch (ACTION_MOVE): 0:(572.1699,323.2308) 1:(339.03262,333.2882)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(572.6264,322.20496) 1:(338.65088,343.08453)
+:Sending Touch (ACTION_UP): 0:(578.88477,321.17404)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(360.0,484.0)
+:Sending Touch (ACTION_MOVE): 0:(361.30444,484.39636)
+:Sending Touch (ACTION_MOVE): 0:(363.92715,485.03494)
+:Sending Touch (ACTION_MOVE): 0:(366.55396,485.6751)
+:Sending Touch (ACTION_MOVE): 0:(367.16046,486.15277)
+:Sending Touch (ACTION_UP): 0:(369.30994,486.37216)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(148.0,1119.0)
+:Sending Touch (ACTION_UP): 0:(131.3815,1115.6085)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(6.0,605.0)
+:Sending Touch (ACTION_UP): 0:(0.0,608.57025)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(618.0,282.0)
+:Sending Touch (ACTION_UP): 0:(627.0654,279.6229)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(473.0,236.0)
+:Sending Touch (ACTION_MOVE): 0:(470.46136,228.42464)
+:Sending Touch (ACTION_MOVE): 0:(468.59784,220.8694)
+:Sending Touch (ACTION_MOVE): 0:(466.907,220.66393)
+:Sending Touch (ACTION_MOVE): 0:(465.06104,212.39395)
+:Sending Touch (ACTION_MOVE): 0:(462.78534,199.40903)
+:Sending Touch (ACTION_MOVE): 0:(462.13077,197.25104)
+:Sending Touch (ACTION_UP): 0:(460.42023,189.33733)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(351.0,82.0)
+:Sending Touch (ACTION_UP): 0:(344.86844,86.644135)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(459.0,198.0)
+:Sending Touch (ACTION_MOVE): 0:(473.1662,189.14865)
+:Sending Touch (ACTION_UP): 0:(486.8493,182.96777)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(305.0,388.0)
+:Sending Touch (ACTION_MOVE): 0:(321.86838,403.04916)
+:Sending Touch (ACTION_MOVE): 0:(325.42517,412.68298)
+:Sending Touch (ACTION_MOVE): 0:(346.6136,421.53592)
+:Sending Touch (ACTION_MOVE): 0:(355.6961,427.46896)
+:Sending Touch (ACTION_MOVE): 0:(360.67712,438.3204)
+:Sending Touch (ACTION_UP): 0:(378.55856,445.42816)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(619.0,424.0)
+:Sending Touch (ACTION_UP): 0:(619.5024,423.3014)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(209.0,1049.0)
+:Sending Touch (ACTION_UP): 0:(206.49889,1041.5897)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(302.0,469.0)
+:Sending Touch (ACTION_UP): 0:(304.94446,472.67255)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(301.0,504.0)
+:Sending Touch (ACTION_UP): 0:(290.63007,496.4372)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(323.0,1158.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(318.97574,1161.7593) 1:(601.0,801.0)
+:Sending Touch (ACTION_MOVE): 0:(318.4598,1165.4895) 1:(605.8878,799.785)
+:Sending Touch (ACTION_MOVE): 0:(317.20398,1169.1948) 1:(610.6151,799.1946)
+:Sending Touch (ACTION_MOVE): 0:(313.21722,1172.8273) 1:(618.2338,798.4354)
+:Sending Touch (ACTION_MOVE): 0:(311.31006,1175.8918) 1:(619.75635,797.6406)
+:Sending Touch (ACTION_MOVE): 0:(309.082,1178.9453) 1:(622.32086,797.3879)
+:Sending Touch (ACTION_MOVE): 0:(307.96484,1182.0612) 1:(632.5917,796.9418)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(307.643,1183.3209) 1:(642.23804,795.46515)
+:Sending Touch (ACTION_UP): 0:(306.42584,1184.3562)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(621.0,554.0)
+:Sending Touch (ACTION_UP): 0:(616.6518,560.4195)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(334.0,1125.0)
+:Sending Touch (ACTION_MOVE): 0:(338.44632,1131.6874)
+:Sending Touch (ACTION_UP): 0:(344.36804,1132.5468)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(550.0,136.0)
+:Sending Touch (ACTION_UP): 0:(552.53644,148.71394)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(25.0,1020.0)
+:Sending Touch (ACTION_MOVE): 0:(42.262688,1017.88245)
+:Sending Touch (ACTION_MOVE): 0:(55.574333,1014.56964)
+:Sending Touch (ACTION_MOVE): 0:(62.98203,1013.4344)
+:Sending Touch (ACTION_MOVE): 0:(78.77095,1011.8317)
+:Sending Touch (ACTION_MOVE): 0:(88.881065,1011.2819)
+:Sending Touch (ACTION_MOVE): 0:(90.46697,1007.20776)
+:Sending Touch (ACTION_MOVE): 0:(102.72337,1004.1379)
+:Sending Touch (ACTION_UP): 0:(120.86084,1002.34283)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(304.0,729.0)
+:Sending Touch (ACTION_MOVE): 0:(305.67807,708.0361)
+:Sending Touch (ACTION_MOVE): 0:(311.44537,690.05865)
+:Sending Touch (ACTION_MOVE): 0:(318.5141,679.71234)
+:Sending Touch (ACTION_MOVE): 0:(322.4013,658.38947)
+:Sending Touch (ACTION_MOVE): 0:(333.64188,639.9922)
+:Sending Touch (ACTION_MOVE): 0:(344.02133,628.97473)
+:Sending Touch (ACTION_MOVE): 0:(349.73788,626.2302)
+:Sending Touch (ACTION_MOVE): 0:(352.8757,617.88525)
+    //[calendar_time:2015-06-08 16:42:09.793  system_uptime:21895883]
+    // Sending event #1100
+:Sending Touch (ACTION_UP): 0:(361.72067,603.7797)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(167.0,261.0)
+:Sending Touch (ACTION_UP): 0:(185.42894,262.19904)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(232.0,255.0)
+:Sending Touch (ACTION_UP): 0:(229.86766,255.03078)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(680.0,760.0)
+:Sending Touch (ACTION_MOVE): 0:(675.6529,757.84424)
+:Sending Touch (ACTION_MOVE): 0:(674.41565,757.0214)
+:Sending Touch (ACTION_MOVE): 0:(672.5942,753.3175)
+:Sending Touch (ACTION_MOVE): 0:(670.6903,749.8126)
+:Sending Touch (ACTION_UP): 0:(670.2469,749.2866)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(23.0,890.0)
+:Sending Touch (ACTION_MOVE): 0:(17.786009,888.30396)
+:Sending Touch (ACTION_MOVE): 0:(4.6368895,883.4072)
+:Sending Touch (ACTION_MOVE): 0:(0.0,878.31726)
+:Sending Touch (ACTION_MOVE): 0:(0.0,876.90466)
+:Sending Touch (ACTION_MOVE): 0:(0.0,873.0299)
+:Sending Touch (ACTION_MOVE): 0:(0.0,870.58325)
+:Sending Touch (ACTION_MOVE): 0:(0.0,868.0384)
+:Sending Touch (ACTION_UP): 0:(0.0,861.87897)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(550.0,625.0)
+:Sending Touch (ACTION_UP): 0:(547.72516,621.9254)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(633.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(628.78424,1068.9315)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(74.0,1255.0)
+:Sending Touch (ACTION_UP): 0:(68.9816,1251.5314)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(312.0,266.0)
+:Sending Touch (ACTION_UP): 0:(301.59344,272.2437)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(271.0,534.0)
+:Sending Touch (ACTION_UP): 0:(269.31552,528.13605)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(52.0,172.0)
+:Sending Touch (ACTION_MOVE): 0:(45.49329,178.31119)
+:Sending Touch (ACTION_MOVE): 0:(40.70506,181.52798)
+:Sending Touch (ACTION_MOVE): 0:(37.067444,185.80956)
+:Sending Touch (ACTION_UP): 0:(31.454308,192.12547)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(388.0,65.0)
+:Sending Touch (ACTION_UP): 0:(379.74222,64.74234)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(502.0,609.0)
+:Sending Touch (ACTION_UP): 0:(516.1242,604.7566)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(707.0,815.0)
+:Sending Touch (ACTION_MOVE): 0:(702.41504,792.93)
+:Sending Touch (ACTION_MOVE): 0:(702.0975,785.0497)
+:Sending Touch (ACTION_MOVE): 0:(694.5968,767.7125)
+:Sending Touch (ACTION_MOVE): 0:(684.83746,746.14404)
+:Sending Touch (ACTION_MOVE): 0:(672.76843,740.26843)
+:Sending Touch (ACTION_UP): 0:(663.1603,727.72485)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(17.0,425.0)
+:Sending Touch (ACTION_UP): 0:(3.5781221,412.14853)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+    // activityResuming(com.android.settings)
+    // Rejecting resume of package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(626.0,800.0)
+:Sending Touch (ACTION_MOVE): 0:(631.92566,795.08734)
+:Sending Touch (ACTION_MOVE): 0:(647.0193,793.67267)
+:Sending Touch (ACTION_MOVE): 0:(652.81476,789.5329)
+:Sending Touch (ACTION_MOVE): 0:(659.20087,786.8139)
+:Sending Touch (ACTION_MOVE): 0:(673.5941,786.23773)
+:Sending Touch (ACTION_UP): 0:(688.54987,782.9093)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(464.0,442.0)
+:Sending Touch (ACTION_UP): 0:(475.8244,438.4722)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(371.0,577.0)
+:Sending Touch (ACTION_UP): 0:(372.90378,570.8821)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(616.0,943.0)
+:Sending Touch (ACTION_MOVE): 0:(605.90393,942.4618)
+:Sending Touch (ACTION_MOVE): 0:(596.2143,941.572)
+:Sending Touch (ACTION_MOVE): 0:(584.41705,941.0345)
+:Sending Touch (ACTION_MOVE): 0:(574.40515,940.14996)
+:Sending Touch (ACTION_MOVE): 0:(565.2747,939.544)
+:Sending Touch (ACTION_MOVE): 0:(549.8455,938.9114)
+:Sending Touch (ACTION_MOVE): 0:(539.59143,938.621)
+:Sending Touch (ACTION_MOVE): 0:(530.5073,937.1741)
+:Sending Touch (ACTION_MOVE): 0:(530.3157,935.8648)
+:Sending Touch (ACTION_UP): 0:(516.4399,934.6744)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(409.0,277.0)
+:Sending Touch (ACTION_UP): 0:(418.41315,261.8413)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.textjni/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.textjni/.MainActivity } in package com.example.textjni
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6478)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(488.0,299.0)
+:Sending Touch (ACTION_MOVE): 0:(475.09143,294.12866)
+:Sending Touch (ACTION_MOVE): 0:(473.0731,287.05966)
+:Sending Touch (ACTION_MOVE): 0:(458.5649,286.9064)
+:Sending Touch (ACTION_MOVE): 0:(444.60962,282.12286)
+:Sending Touch (ACTION_UP): 0:(437.30646,282.06888)
+Sleeping for 500 milliseconds
+// CRASH: com.example.textjni (pid 6492)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+// CRASH: com.example.textjni (pid 6506)
+// Short Msg: java.lang.UnsatisfiedLinkError
+// Long Msg: java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// Build Label: X300/X300/X300:4.4.4/KTU84P/eng.zhangzhaolei.20150605.150735:userdebug/test-keys
+// Build Changelist: eng.zhangzhaolei.20150605.150735
+// Build Time: 1433488091000
+// java.lang.UnsatisfiedLinkError: Couldn't load textjni from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.example.textjni-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.textjni-1, /vendor/lib, /system/lib]]]: findLibrary returned null
+// 	at java.lang.Runtime.loadLibrary(Runtime.java:358)
+// 	at java.lang.System.loadLibrary(System.java:526)
+// 	at com.example.textjni.MainActivity.<clinit>(MainActivity.java:10)
+// 	at java.lang.Class.newInstanceImpl(Native Method)
+// 	at java.lang.Class.newInstance(Class.java:1208)
+// 	at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2104)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2236)
+// 	at android.app.ActivityThread.access$800(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5095)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:602)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+:Sending Touch (ACTION_DOWN): 0:(336.0,1090.0)
+:Sending Touch (ACTION_MOVE): 0:(326.58615,1076.8264)
+:Sending Touch (ACTION_MOVE): 0:(317.0641,1070.6672)
+:Sending Touch (ACTION_MOVE): 0:(312.94553,1068.6132)
+:Sending Touch (ACTION_UP): 0:(311.68045,1050.9315)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(14.0,410.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,413.056)
+:Sending Touch (ACTION_MOVE): 0:(0.0,414.11172)
+:Sending Touch (ACTION_MOVE): 0:(0.0,415.72363)
+:Sending Touch (ACTION_MOVE): 0:(0.0,416.85477)
+:Sending Touch (ACTION_MOVE): 0:(0.0,418.3798)
+:Sending Touch (ACTION_MOVE): 0:(0.0,419.2693)
+:Sending Touch (ACTION_MOVE): 0:(0.0,421.12766)
+Events injected: 1200
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=59 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=165427ms (0ms mobile, 0ms wifi, 165427ms not connected)
+// Monkey finished

@@ -1,0 +1,1198 @@
+--------- beginning of /dev/log/system
+D/StatusBar.MSimNetworkController(  933): refreshViews mMSimDataActivity =0
+D/StatusBar.MSimNetworkController(  933): refreshViews connected={ } level=0 mMSimcombinedSignalIconId=0x7f0202eb/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0202eb mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0202eb mMSimDataTypeIconId=0x0 mNoMSimIconId=0x7f02015e mWifiIconId=0x0 mBluetoothTetherIconId=0x1080575
+W/BackupManagerService(  817): dataChanged but no participant pkg='com.lenovo.xlauncher' uid=10038
+D/CountryDetector(  817): The first listener is added
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.safecenter.intent.action.UPDATE_NOTIFICATION (has extras) } U=0: not found
+I/ActivityManager(  817): Start proc com.lenovo.lewea for broadcast com.lenovo.lewea/.widget.ThemeReceiver: pid=1452 uid=10042 gids={50042, 3003, 1015, 1028}
+I/ActivityManager(  817): Start proc com.lenovo.themecenter for broadcast com.lenovo.themecenter/.ThemeChangeReceiver: pid=1475 uid=10041 gids={50041, 3003, 1015, 1028}
+I/ActivityManager(  817): Start proc com.lenovo.ota for broadcast com.lenovo.ota/.ui.LenovoOTAReceiver: pid=1492 uid=10037 gids={50037, 1023, 1007, 1015, 2001, 3003, 1028}
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1396 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.dsi.ant.server.AntService.startService:125 com.dsi.ant.server.startup.BootCompletedReceiver.onReceive:41 
+I/ActivityManager(  817): Start proc com.android.calendar for broadcast com.android.calendar/.alerts.AlertReceiver: pid=1514 uid=10007 gids={50007, 3003, 1028}
+I/BootReceiver(  817): Copying audit failures to DropBox
+I/ActivityManager(  817): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1533 uid=10008 gids={50008, 3003, 1015, 1028}
+I/ActivityManager(  817): Start proc com.android.cellbroadcastreceiver for broadcast com.android.cellbroadcastreceiver/.CellBroadcastReceiver: pid=1550 uid=10011 gids={50011, 1028}
+I/ActivityManager(  817): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmInitReceiver: pid=1565 uid=10015 gids={50015, 1028}
+I/ActivityManager(  817): Start proc com.android.email for broadcast com.android.email/.service.EmailBroadcastReceiver: pid=1584 uid=10018 gids={50018, 3003, 1015, 1028}
+D/ActivityThread( 1584): Loading provider com.android.email.provider;com.android.email.notifier: com.android.email.provider.EmailProvider
+I/ActivityManager(  817): Start proc com.android.exchange for service com.android.exchange/.ExchangeService: pid=1606 uid=10020 gids={50020, 3003, 1015, 1028}
+I/ActivityManager(  817): Start proc com.caf.fmradio for broadcast com.caf.fmradio/.FMTransmitterConfigReceiver: pid=1638 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.qualcomm.factory for broadcast com.qualcomm.factory/.Framework.EventReceiver: pid=1675 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.android.inputmethod.latin for broadcast com.android.inputmethod.latin/.setup.LauncherIconVisibilityManager: pid=1724 uid=10035 gids={50035, 1015, 1028}
+I/ActivityManager(  817): Process com.android.inputmethod.latin (pid 1724) has died.
+W/ActivityManager(  817): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+I/ActivityManager(  817): No longer want com.android.settings (pid 1005): empty #14
+W/ActivityManager(  817): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/ActivityManager(  817): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+I/ActivityManager(  817): No longer want com.android.music (pid 1217): empty #14
+W/ActivityManager(  817): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/BackupManagerService(  817): dataChanged but no participant pkg='com.lenovo.xlauncher' uid=10038
+W/BackupManagerService(  817): dataChanged but no participant pkg='com.lenovo.xlauncher' uid=10038
+D/StatusBar.MSimNetworkController(  933): Received SPN update on sub :1
+D/StatusBar.MSimNetworkController(  933): updateNetworkName showSpn=false spn= showPlmn=false plmn=null
+I/MSimTelephonyRegistry(  817): notifyServiceState: 1 1 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false
+D/StatusBar.MSimNetworkController(  933): SPN name is not displayed
+D/StatusBar.MSimNetworkController(  933): Sub 1 networkName: 无服务
+D/StatusBar.MSimNetworkController(  933): updateCarrierText for sub:1 simState =ABSENT
+D/StatusBar.MSimNetworkController(  933): refreshViews subscription =1mMSimDataConnected =false
+D/StatusBar.MSimNetworkController(  933): refreshViews mMSimDataActivity =0
+D/StatusBar.MSimNetworkController(  933): refreshViews connected={ } level=0 mMSimcombinedSignalIconId=0x7f0202eb/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0202eb mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0202eb mMSimDataTypeIconId=0x0 mNoMSimIconId=0x7f02015e mWifiIconId=0x0 mBluetoothTetherIconId=0x1080575
+D/StatusBar.MSimNetworkController(  933): onServiceStateChanged received on subscription :1state=1
+D/StatusBar.MSimNetworkController(  933): Combining data service state 1 for signal
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: subscription =1
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: sub =0
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: callState =0
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: sub =1
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: callState =0
+D/StatusBar.MSimNetworkController(  933):  No service
+D/StatusBar.MSimNetworkController(  933): updateDataNetType: SUB1 is not DDS(=SUB0)!
+D/StatusBar.MSimNetworkController(  933): updateDataIcon subscription =1
+D/StatusBar.MSimNetworkController(  933): updateDataIcon dataSub =0
+D/StatusBar.MSimNetworkController(  933): updateDataIconi: SUB1 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController(  933): updateNetworkName showSpn=false spn=null showPlmn=false plmn=null
+D/StatusBar.MSimNetworkController(  933): SPN name is not displayed
+D/StatusBar.MSimNetworkController(  933): Sub 1 networkName: 无服务
+D/StatusBar.MSimNetworkController(  933): updateCarrierText for sub:1 simState =ABSENT
+D/StatusBar.MSimNetworkController(  933): refreshViews subscription =1mMSimDataConnected =false
+D/StatusBar.MSimNetworkController(  933): refreshViews mMSimDataActivity =0
+D/StatusBar.MSimNetworkController(  933): refreshViews connected={ } level=0 mMSimcombinedSignalIconId=0x7f0202eb/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0202eb mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0202eb mMSimDataTypeIconId=0x0 mNoMSimIconId=0x7f02015e mWifiIconId=0x0 mBluetoothTetherIconId=0x1080575
+W/BroadcastQueue(  817): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x10 (has extras) } to com.lenovo.themecenter/.downloads.DownloadReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.weatherserver.TimeTickService } U=0: not found
+I/ActivityManager(  817): Start proc com.qualcomm.qct.dlt for broadcast com.qualcomm.qct.dlt/.proximity.ProximityBroadcastReceiver: pid=1778 uid=10051 gids={50051, 1015, 3003, 1028}
+E/AndroidRuntime( 1778): FATAL EXCEPTION: main
+E/AndroidRuntime( 1778): java.lang.NoClassDefFoundError: com.qualcomm.qmapbridge.MapBridgeMapActivity
+E/AndroidRuntime( 1778): 	at com.qualcomm.qct.dlt.DLTApplication.initialize(DLTApplication.java:355)
+E/AndroidRuntime( 1778): 	at com.qualcomm.qct.dlt.DLTApplication.onCreate(DLTApplication.java:610)
+E/AndroidRuntime( 1778): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+E/AndroidRuntime( 1778): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4477)
+E/AndroidRuntime( 1778): 	at android.app.ActivityThread.access$1300(ActivityThread.java:144)
+E/AndroidRuntime( 1778): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1319)
+E/AndroidRuntime( 1778): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1778): 	at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 1778): 	at android.app.ActivityThread.main(ActivityThread.java:5136)
+E/AndroidRuntime( 1778): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1778): 	at java.lang.reflect.Method.invoke(Method.java:525)
+E/AndroidRuntime( 1778): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+E/AndroidRuntime( 1778): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+E/AndroidRuntime( 1778): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  817): Notify an ApplicationCrash
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:8511 com.android.server.am.ActivityManagerService.handleApplicationCrash:8490 android.app.ActivityManagerNative.onTransact:1211 com.android.server.am.ActivityManagerService.onTransact:1741 
+I/PowerManagerService(  817): Going to sleep due to screen timeout...
+I/WindowManager(  817): Lock screen displayed!
+I/WindowManager(  817): Screenshot max retries 4 of Token{41ff13e8 ActivityRecord{41fcb648 u0 com.lenovo.xlauncher/com.lenovo.launcher.Launcher}} appWin=Window{41ea4348 u0 com.lenovo.xlauncher/com.lenovo.launcher.Launcher} drawState=4
+W/WindowManager(  817): Screenshot failure taking screenshot for (480x800) to layer 21005
+D/StatusBar.MSimNetworkController(  933): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 0 0 -120 -160 -120 0 -1 0 2147483647 2147483647 0 0 2147483647 cdma level=0
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: subscription =0
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: sub =0
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: callState =0
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: sub =1
+D/StatusBar.MSimNetworkController(  933): updateTelephonySignalStrength: callState =0
+D/StatusBar.MSimNetworkController(  933):  No service
+D/StatusBar.MSimNetworkController(  933): refreshViews subscription =0mMSimDataConnected =false
+D/StatusBar.MSimNetworkController(  933): refreshViews mMSimDataActivity =0
+D/StatusBar.MSimNetworkController(  933): refreshViews connected={ } level=0 mMSimcombinedSignalIconId=0x7f0202eb/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0202eb mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0202eb mMSimDataTypeIconId=0x0 mNoMSimIconId=0x7f02015e mWifiIconId=0x0 mBluetoothTetherIconId=0x1080575
+I/ActivityManager(  817): No longer want com.lenovo.lsf (pid 1230): empty #14
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/ActivityManager(  817): No longer want com.lenovo.themecenter (pid 1475): empty #14
+I/ActivityManager(  817): Start proc com.android.onetimeinitializer for broadcast com.android.onetimeinitializer/.OneTimeInitializerReceiver: pid=1892 uid=10052 gids={50052, 1028}
+I/ActivityManager(  817): Start proc com.qualcomm.qualcommsettings for broadcast com.qualcomm.qualcommsettings/.Dun_Autoboot: pid=1907 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): No longer want com.lenovo.ota (pid 1492): empty #14
+W/ContextImpl( 1907): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1396 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.qualcomm.qualcommsettings.Dun_Autoboot.onReceive:57 android.app.ActivityThread.handleReceiver:2427 
+W/ContextImpl( 1907): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1396 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.qualcomm.qualcommsettings.Diag_Autoboot.onReceive:45 android.app.ActivityThread.handleReceiver:2427 
+I/ActivityManager(  817): Start proc com.android.settings for broadcast com.android.settings/.timerpower.AlarmInitReceiver: pid=1921 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): No longer want com.android.calendar (pid 1514): empty #14
+I/ActivityManager(  817): Start proc com.qualcomm.universaldownload for broadcast com.qualcomm.universaldownload/.BootcompleteReceiver: pid=1934 uid=10068 gids={50068, 3003, 1028}
+I/ActivityManager(  817): Start proc com.qualcomm.atfwd for broadcast com.qualcomm.atfwd/.AtFwdAutoboot: pid=1949 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.qualcomm.atuner for broadcast com.qualcomm.atuner/.ATunerAutoboot: pid=1968 uid=10073 gids={50073, 1028}
+I/ActivityManager(  817): No longer want com.android.cellbroadcastreceiver (pid 1550): empty #14
+I/ActivityManager(  817): Start proc com.qualcomm.embms for broadcast com.qualcomm.embms/.EmbmsBootReceiver: pid=1992 uid=10074 gids={50074, 3003, 1028}
+I/ActivityManager(  817): Start proc com.qualcomm.fastdormancy for broadcast com.qualcomm.fastdormancy/.FastDormancyReceiver: pid=2005 uid=10075 gids={50075, 1028}
+I/ActivityManager(  817): No longer want com.android.deskclock (pid 1565): empty #14
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.weatherserver.TimeTickService } U=0: not found
+I/ActivityManager(  817): Start proc com.lenovo.lsf for broadcast com.lenovo.lsf/.account.service.IDServiceReceiver: pid=2024 uid=10034 gids={50034, 3003, 1015, 1028}
+I/ActivityManager(  817): No longer want com.caf.fmradio (pid 1638): empty #14
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.safecenter.intent.action.UPDATE_NOTIFICATION (has extras) } U=0: not found
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.safecenter.intent.action.UPDATE_NOTIFICATION (has extras) } U=0: not found
+I/ActivityManager(  817): Start proc com.lenovo.ota for broadcast com.lenovo.ota/.ui.LenovoOTAReceiver: pid=2041 uid=10037 gids={50037, 1023, 1007, 1015, 2001, 3003, 1028}
+I/ActivityManager(  817): Start proc com.android.calendar for broadcast com.android.calendar/.alerts.AlertReceiver: pid=2055 uid=10007 gids={50007, 3003, 1028}
+I/ActivityManager(  817): No longer want com.qualcomm.factory (pid 1675): empty #14
+I/ActivityManager(  817): No longer want com.android.gallery3d (pid 1154): empty #14
+I/ActivityManager(  817): No longer want com.lenovo.lsf.device (pid 1085): empty #14
+I/PowerManagerService(  817): Waking up from sleep...
+I/WindowManager(  817): Lock screen displayed!
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT CLOCK* search >
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.hide:552 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleHide:1349 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleKeyguardDone:1208 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$2300:104 
+I/ActivityManager(  817): Start proc com.lenovo.safecenter:fore for broadcast com.lenovo.safecenter/.update.LesafeUpdaterBroadcastReceiver: pid=2155 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+I/ActivityManager(  817): No longer want android.process.media (pid 1134): empty #14
+I/ActivityManager(  817): Start proc com.lenovo.leos.cloud.sync for broadcast com.lenovo.leos.cloud.sync/.common.auto.FirstNotifyBroadcastReceiver: pid=2177 uid=10040 gids={50040, 3003, 1015, 1023, 1028}
+I/ActivityManager(  817): Process com.qualcomm.qct.dlt (pid 1778) has died.
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.weatherserver.TimeTickService } U=0: not found
+I/ActivityManager(  817): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings bnds=[360,339][480,487]} from pid 1053
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1450 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothInputDevice.<init>:251 android.bluetooth.BluetoothAdapter.getProfileProxy:1169 com.android.settings.bluetooth.LocalBluetoothAdapter.getProfileProxy:94 
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1450 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothPan.<init>:141 android.bluetooth.BluetoothAdapter.getProfileProxy:1172 com.android.settings.bluetooth.PanProfile.<init>:73 
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1450 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothSap.<init>:101 android.bluetooth.BluetoothAdapter.getProfileProxy:1175 com.android.settings.bluetooth.SapServerProfile.<init>:81 
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1450 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothPbap.<init>:161 com.android.settings.bluetooth.PbapServerProfile.<init>:68 com.android.settings.bluetooth.LocalBluetoothProfileManager.<init>:143 
+D/QcConnectivityService(  817): getMobileDataEnabled returning false
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 android.content.ContextWrapper.sendBroadcast:344 android.app.Activity.onResume:1107 com.android.settings.Settings.onResume:217 android.app.Instrumentation.callActivityOnResume:1192 
+D/QcConnectivityService(  817): getMobileDataEnabled returning false
+I/ActivityManager(  817): Killing proc 2177:com.lenovo.leos.cloud.sync/u0a10040: kill background
+I/ActivityManager(  817): START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from pid 1921
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 android.content.ContextWrapper.sendBroadcast:344 android.app.Activity.onResume:1107 com.android.settings.Settings.onResume:217 android.app.Instrumentation.callActivityOnResume:1192 
+I/ActivityManager(  817): Process com.lenovo.safecenter:fore (pid 2155) has died.
+W/SocketClient(  257): write error (Broken pipe)
+I/ActivityManager(  817): No longer want com.hipad.logkit (pid 1190): empty for 1801s
+W/ActivityManager(  817): Scheduling restart of crashed service com.hipad.logkit/.LogKitService in 5000ms
+I/ActivityManager(  817): Start proc com.hipad.logkit for service com.hipad.logkit/.LogKitService: pid=2481 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): No longer want com.android.email (pid 1584): empty for 1813s
+I/ActivityManager(  817): No longer want com.android.exchange (pid 1606): empty for 1813s
+I/ActivityManager(  817): No longer want com.lenovo.ideafriend (pid 1384): empty for 1813s
+I/ActivityManager(  817): No longer want com.lenovo.ota (pid 2041): empty for 1813s
+I/ActivityManager(  817): No longer want com.qualcomm.simcontacts (pid 1309): empty for 1813s
+I/ActivityManager(  817): No longer want com.qualcomm.fastdormancy (pid 2005): empty for 1814s
+I/ActivityManager(  817): No longer want com.qualcomm.embms (pid 1992): empty for 1814s
+I/ActivityManager(  817): No longer want com.qualcomm.atuner (pid 1968): empty for 1814s
+I/ActivityManager(  817): No longer want com.qualcomm.atfwd (pid 1949): empty for 1814s
+I/ActivityManager(  817): No longer want com.qualcomm.universaldownload (pid 1934): empty for 1814s
+I/ActivityManager(  817): No longer want com.qualcomm.qualcommsettings (pid 1907): empty for 1815s
+I/ActivityManager(  817): No longer want com.android.onetimeinitializer (pid 1892): empty for 1815s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.simcontacts/.SimContactsService in 5000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DunService in 14994ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DiagService in 24994ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.fastdormancy/.FastDormancyService in 34992ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.ideafriend/.contacts.simcontact.StartSIMService2 in 44980ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.ideafriend/.utils.contactscache.ContactsCacheSyncService in 54980ms
+D/CountryDetector(  817): No listener is left
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.ideafriend/.contacts.simcontact.StartSIMService in 64979ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.universaldownload/.DownloadService in 74973ms
+I/ActivityManager(  817): Start proc com.qualcomm.simcontacts for service com.qualcomm.simcontacts/.SimContactsService: pid=2532 uid=10063 gids={50063, 1028}
+I/ActivityManager(  817): No longer want com.android.providers.calendar (pid 1533): empty for 1818s
+I/ActivityManager(  817): Start proc com.qualcomm.qualcommsettings for service com.qualcomm.qualcommsettings/.DunService: pid=2561 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/PowerManagerService(  817): Going to sleep due to screen timeout...
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.show:195 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleShow:1313 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$1600:104 com.android.internal.policy.impl.keyguard.KeyguardViewMediator$4.handleMessage:1158 
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back home RECENT* clock search >
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT CLOCK* search >
+I/PowerManagerService(  817): Waking up from sleep...
+I/EntropyMixer(  817): Writing entropy...
+I/ActivityManager(  817): Start proc com.lenovo.lsf.device for broadcast com.lenovo.lsf.device/com.lenovo.lsf.push.receiver.PushReceiver: pid=2632 uid=10031 gids={50031, 3002, 3001, 3003, 1007, 1015, 1028}
+I/WindowManager(  817): Lock screen displayed!
+W/PowerUI (  933): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+I/ActivityManager(  817): No longer want com.android.calendar (pid 2055): empty for 1843s
+I/ActivityManager(  817): Start proc android.process.media for broadcast com.android.providers.media/.MtpReceiver: pid=2659 uid=10017 gids={50017, 1015, 1023, 1024, 1028, 2001, 3003, 3007}
+I/ActivityManager(  817): No longer want com.lenovo.safecenter (pid 1243): empty for 1829s
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.safecenter/.permission.services.SafeCenterService in 54219ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.safecenter/.services.MainService in 54218ms
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.hide:552 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleHide:1349 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleKeyguardDone:1208 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$2300:104 
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 android.content.ContextWrapper.sendBroadcast:344 android.app.Activity.onResume:1107 com.android.settings.Settings.onResume:217 android.app.Instrumentation.callActivityOnResume:1192 
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+I/ActivityManager(  817): Start proc com.lenovo.safecenter:fore for broadcast com.lenovo.safecenter/.update.LesafeUpdaterBroadcastReceiver: pid=2679 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41fd1b60 attribute=android.view.inputmethod.EditorInfo@41fe22c8, token = android.os.BinderProxy@41ee65d0
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+I/ActivityManager(  817): Start proc com.lenovo.safecenter for content provider com.lenovo.safecenter/.providers.SharedPrefsProvider: pid=2696 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+I/ActivityManager(  817): Start proc com.lenovo.leos.cloud.sync for broadcast com.lenovo.leos.cloud.sync/.common.auto.FirstNotifyBroadcastReceiver: pid=2723 uid=10040 gids={50040, 3003, 1015, 1023, 1028}
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.weatherserver.TimeTickService } U=0: not found
+I/ActivityManager(  817): Start proc com.qualcomm.fastdormancy for service com.qualcomm.fastdormancy/.FastDormancyService: pid=2810 uid=10075 gids={50075, 1028}
+I/ActivityManager(  817): Killing proc 2723:com.lenovo.leos.cloud.sync/u0a10040: kill background
+I/ActivityManager(  817): Start proc com.lenovo.ideafriend for service com.lenovo.ideafriend/.contacts.simcontact.StartSIMService2: pid=2824 uid=10076 gids={50076, 3003, 1015, 1023, 1028}
+D/CountryDetector(  817): The first listener is added
+I/ActivityManager(  817): Process com.lenovo.safecenter:fore (pid 2679) has died.
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/ActivityManager(  817): Start proc com.qualcomm.universaldownload for service com.qualcomm.universaldownload/.DownloadService: pid=2896 uid=10068 gids={50068, 3003, 1028}
+W/SocketClient(  257): write error (Broken pipe)
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=565.3434 v=0.0)
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=370.5368 v=-1638.0001)
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41fd4990 attribute=null, token = android.os.BinderProxy@41ee65d0
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=176.77902 v=-1234.3008)
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41fe9790 attribute=null, token = android.os.BinderProxy@41ee65d0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 android.content.ContextWrapper.sendBroadcast:344 android.app.Activity.onResume:1107 com.android.settings.Settings.onResume:217 android.app.Instrumentation.callActivityOnResume:1192 
+W/ActivityManager(  817): Duplicate finish request for ActivityRecord{41d4ba70 u0 com.android.settings/.SubSettings}
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+I/ActivityManager(  817): No longer want com.qualcomm.simcontacts (pid 2532): empty for 1825s
+I/ActivityManager(  817): No longer want com.hipad.logkit (pid 2481): empty for 1873s
+W/ActivityManager(  817): Scheduling restart of crashed service com.hipad.logkit/.LogKitService in 5000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.simcontacts/.SimContactsService in 14998ms
+I/ActivityManager(  817): Start proc com.hipad.logkit for service com.hipad.logkit/.LogKitService: pid=3128 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): No longer want android.process.media (pid 2659): empty for 1804s
+I/ActivityManager(  817): No longer want com.lenovo.lsf.device (pid 2632): empty for 1805s
+I/ActivityManager(  817): No longer want com.qualcomm.qualcommsettings (pid 2561): empty for 1820s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DunService in 19897ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DiagService in 29897ms
+I/ActivityManager(  817): Start proc com.qualcomm.simcontacts for service com.qualcomm.simcontacts/.SimContactsService: pid=3160 uid=10063 gids={50063, 1028}
+I/ActivityManager(  817): No longer want com.lenovo.safecenter (pid 2696): empty for 1813s
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.safecenter/.permission.services.SafeCenterService in 29859ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.safecenter/.services.MainService in 29859ms
+I/ActivityManager(  817): Start proc com.qualcomm.qualcommsettings for service com.qualcomm.qualcommsettings/.DunService: pid=3178 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.lenovo.safecenter for service com.lenovo.safecenter/.services.MainService: pid=3193 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+I/ActivityManager(  817): No longer want com.qualcomm.fastdormancy (pid 2810): empty for 1840s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.fastdormancy/.FastDormancyService in 5000ms
+I/ActivityManager(  817): Start proc com.qualcomm.fastdormancy for service com.qualcomm.fastdormancy/.FastDormancyService: pid=3290 uid=10075 gids={50075, 1028}
+W/SocketClient(  257): write error (Broken pipe)
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/PowerManagerService(  817): Going to sleep due to screen timeout...
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.show:195 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleShow:1313 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$1600:104 com.android.internal.policy.impl.keyguard.KeyguardViewMediator$4.handleMessage:1158 
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back home RECENT* clock search >
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT CLOCK* search >
+I/ActivityManager(  817): No longer want com.qualcomm.universaldownload (pid 2896): empty for 3579s
+I/ActivityManager(  817): No longer want com.lenovo.ideafriend (pid 2824): empty for 3608s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.universaldownload/.DownloadService in 5000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.ideafriend/.contacts.simcontact.StartSIMService2 in 14931ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.ideafriend/.utils.contactscache.ContactsCacheSyncService in 24930ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.ideafriend/.contacts.simcontact.StartSIMService in 34929ms
+D/CountryDetector(  817): No listener is left
+I/ActivityManager(  817): Start proc com.qualcomm.universaldownload for service com.qualcomm.universaldownload/.DownloadService: pid=3505 uid=10068 gids={50068, 3003, 1028}
+I/ActivityManager(  817): No longer want com.hipad.logkit (pid 3128): empty for 1824s
+W/ActivityManager(  817): Scheduling restart of crashed service com.hipad.logkit/.LogKitService in 39753ms
+I/ActivityManager(  817): Start proc com.lenovo.ideafriend for service com.lenovo.ideafriend/.contacts.simcontact.StartSIMService2: pid=3519 uid=10076 gids={50076, 3003, 1015, 1023, 1028}
+D/CountryDetector(  817): The first listener is added
+I/ActivityManager(  817): No longer want com.qualcomm.qualcommsettings (pid 3178): empty for 1826s
+I/ActivityManager(  817): No longer want com.qualcomm.simcontacts (pid 3160): empty for 1836s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.simcontacts/.SimContactsService in 5000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DunService in 27474ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DiagService in 37474ms
+I/ActivityManager(  817): Start proc com.qualcomm.simcontacts for service com.qualcomm.simcontacts/.SimContactsService: pid=3614 uid=10063 gids={50063, 1028}
+I/ActivityManager(  817): Start proc com.hipad.logkit for service com.hipad.logkit/.LogKitService: pid=3628 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.qualcomm.qualcommsettings for service com.qualcomm.qualcommsettings/.DunService: pid=3643 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/PowerManagerService(  817): Waking up from sleep...
+I/WindowManager(  817): Lock screen displayed!
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.hide:552 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleHide:1349 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleKeyguardDone:1208 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$2300:104 
+W/ContextImpl( 1921): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 android.content.ContextWrapper.sendBroadcast:344 android.app.Activity.onResume:1107 com.android.settings.Settings.onResume:217 android.app.Instrumentation.callActivityOnResume:1192 
+I/ActivityManager(  817): Start proc com.lenovo.safecenter:fore for broadcast com.lenovo.safecenter/.update.LesafeUpdaterBroadcastReceiver: pid=3712 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41fb65e0 attribute=android.view.inputmethod.EditorInfo@4239ba08, token = android.os.BinderProxy@41e02308
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+I/ActivityManager(  817): Start proc com.lenovo.leos.cloud.sync for broadcast com.lenovo.leos.cloud.sync/.common.auto.FirstNotifyBroadcastReceiver: pid=3734 uid=10040 gids={50040, 3003, 1015, 1023, 1028}
+I/ActivityManager(  817): No longer want com.qualcomm.fastdormancy (pid 3290): empty for 2937s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.fastdormancy/.FastDormancyService in 5000ms
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.weatherserver.TimeTickService } U=0: not found
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+I/ActivityManager(  817): No longer want com.lenovo.lsf (pid 2024): empty for 2882s
+I/ActivityManager(  817): Killing proc 3734:com.lenovo.leos.cloud.sync/u0a10040: kill background
+I/ActivityManager(  817): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.lenovo.ideafriend/.alias.MmsActivity bnds=[120,675][240,800]} from pid 1053
+I/ActivityManager(  817): Start proc com.qualcomm.fastdormancy for service com.qualcomm.fastdormancy/.FastDormancyService: pid=3803 uid=10075 gids={50075, 1028}
+I/ActivityManager(  817): START u0 {cmp=com.lenovo.ideafriend/.mms.android.ui.ComposeMessageActivity} from pid 3519
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+I/ActivityManager(  817): moveTaskToBack: 4
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+I/ActivityManager(  817): Process com.lenovo.safecenter:fore (pid 3712) has died.
+I/ActivityManager(  817): Start proc com.lenovo.lsf.device for broadcast com.lenovo.lsf.device/com.lenovo.lsf.push.receiver.PushReceiver: pid=3911 uid=10031 gids={50031, 3002, 3001, 3003, 1007, 1015, 1028}
+I/ActivityManager(  817): Start proc android.process.media for broadcast com.android.providers.media/.MtpReceiver: pid=3937 uid=10017 gids={50017, 1015, 1023, 1024, 1028, 2001, 3003, 3007}
+I/ActivityManager(  817): No longer want com.qualcomm.universaldownload (pid 3505): empty for 1822s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.universaldownload/.DownloadService in 5000ms
+I/ActivityManager(  817): Start proc com.qualcomm.universaldownload for service com.qualcomm.universaldownload/.DownloadService: pid=4124 uid=10068 gids={50068, 3003, 1028}
+I/ActivityManager(  817): No longer want com.qualcomm.qualcommsettings (pid 3643): empty for 1804s
+I/ActivityManager(  817): No longer want com.hipad.logkit (pid 3628): empty for 1814s
+I/ActivityManager(  817): No longer want com.qualcomm.simcontacts (pid 3614): empty for 1827s
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DunService in 5000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.qualcommsettings/.DiagService in 15000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.hipad.logkit/.LogKitService in 25000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.simcontacts/.SimContactsService in 34985ms
+I/ActivityManager(  817): Start proc com.qualcomm.qualcommsettings for service com.qualcomm.qualcommsettings/.DunService: pid=4149 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.hipad.logkit for service com.hipad.logkit/.LogKitService: pid=4181 uid=1000 gids={41000, 3001, 3002, 3003, 1015, 1028, 1023, 1007, 3006}
+I/ActivityManager(  817): Start proc com.qualcomm.simcontacts for service com.qualcomm.simcontacts/.SimContactsService: pid=4199 uid=10063 gids={50063, 1028}
+I/ActivityManager(  817): No longer want com.lenovo.safecenter (pid 3193): empty for 1835s
+I/ActivityManager(  817): No longer want com.android.settings (pid 1921): empty for 1835s
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.safecenter/.permission.services.SafeCenterService in 5000ms
+W/ActivityManager(  817): Scheduling restart of crashed service com.lenovo.safecenter/.services.MainService in 5000ms
+I/ActivityManager(  817): Start proc com.lenovo.safecenter for service com.lenovo.safecenter/.services.MainService: pid=4394 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/PackageManager(  817): Adding preferred activity ComponentInfo{com.lenovo.safecenter/com.lenovo.safecenter.defense.fragment.install.UninstallerActivity} for user 0 :
+I/PowerManagerService(  817): Going to sleep due to screen timeout...
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.show:195 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleShow:1313 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$1600:104 com.android.internal.policy.impl.keyguard.KeyguardViewMediator$4.handleMessage:1158 
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back home RECENT* clock search >
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT CLOCK* search >
+W/SocketClient(  257): write error (Broken pipe)
+I/PowerManagerService(  817): Waking up from sleep...
+I/WindowManager(  817): Lock screen displayed!
+I/ActivityManager(  817): Start proc com.android.calendar for broadcast com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory: pid=4664 uid=10007 gids={50007, 3003, 1028}
+I/ActivityManager(  817): No longer want com.qualcomm.fastdormancy (pid 3803): empty for 1877s
+I/ActivityManager(  817): Start proc com.android.providers.calendar for content provider com.android.providers.calendar/.CalendarProvider2: pid=4691 uid=10008 gids={50008, 3003, 1015, 1028}
+W/ActivityManager(  817): Scheduling restart of crashed service com.qualcomm.fastdormancy/.FastDormancyService in 5000ms
+I/ActivityManager(  817): No longer want com.lenovo.lsf.device (pid 3911): empty for 1814s
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back* home* RECENT clock* search >
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=715.10614 v=322.72543)
+V/PanelView(  933): animationTick called with dtms=-3; nothing to do (h=715.10614 v=322.72543)
+I/ActivityManager(  817): Start proc com.qualcomm.fastdormancy for service com.qualcomm.fastdormancy/.FastDormancyService: pid=4744 uid=10075 gids={50075, 1028}
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=479.40076 v=-1482.7634)
+V/PanelView(  933): animationTick called with dtms=-4; nothing to do (h=479.40076 v=-1482.7634)
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT CLOCK* search >
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=218.7266 v=1397.0857)
+V/PanelView(  933): animationTick called with dtms=-10; nothing to do (h=218.7266 v=1397.0857)
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back* home* RECENT clock* search >
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=542.3221 v=-1858.4509)
+V/PanelView(  933): animationTick called with dtms=-8; nothing to do (h=542.3221 v=-1858.4509)
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT CLOCK* search >
+I/PowerManagerService(  817): Going to sleep due to screen timeout...
+I/ActivityManager(  817): Start proc com.lenovo.lsf for broadcast com.lenovo.lsf/.account.service.IDServiceReceiver: pid=4822 uid=10034 gids={50034, 3003, 1015, 1028}
+I/ActivityManager(  817): No longer want android.process.media (pid 3937): empty for 1835s
+I/PowerManagerService(  817): Waking up from sleep...
+I/WindowManager(  817): Lock screen displayed!
+I/PowerManagerService(  817): Going to sleep by user request...
+I/ActivityManager(  817): Start proc com.qualcomm.calendarwidget for broadcast com.qualcomm.calendarwidget/.CalendarWidget: pid=4936 uid=10009 gids={50009, 1028}
+I/ActivityManager(  817): Start proc com.android.lunar for service com.android.lunar/.LunarService: pid=4949 uid=10046 gids={50046, 1028}
+I/ActivityManager(  817): Start proc com.lenovo.lsf.device for broadcast com.lenovo.lsf.device/com.lenovo.lsf.upgrade.UpgradeReceiver: pid=4955 uid=10031 gids={50031, 3002, 3001, 3003, 1007, 1015, 1028}
+I/ActivityManager(  817): Start proc com.android.inputmethod.latin for broadcast com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.EventHandler: pid=4983 uid=10035 gids={50035, 1015, 1028}
+I/ActivityManager(  817): Start proc com.qualcomm.timeservice for broadcast com.qualcomm.timeservice/.TimeServiceBroadcastReceiver: pid=4999 uid=10067 gids={50067, 1028}
+W/SocketClient(  257): write error (Broken pipe)
+I/fstrim  (  251): Starting fstrim work...
+I/fstrim  (  251): Invoking FITRIM ioctl on /data
+I/fstrim  (  251): Trimmed 2420576256 bytes on /data
+I/fstrim  (  251): Finished fstrim work.
+W/ProcessStats(  817): Skipping unknown process pid 5196
+W/ProcessStats(  817): Skipping unknown process pid 5197
+W/ProcessStats(  817): Skipping unknown process pid 5198
+W/ProcessStats(  817): Skipping unknown process pid 5199
+W/ProcessStats(  817): Skipping unknown process pid 5200
+W/ProcessStats(  817): Skipping unknown process pid 5201
+W/ProcessStats(  817): Skipping unknown process pid 5202
+W/ProcessStats(  817): Skipping unknown process pid 5203
+W/ProcessStats(  817): Skipping unknown process pid 5205
+I/PowerManagerService(  817): Waking up from sleep...
+I/WindowManager(  817): Lock screen displayed!
+I/PowerManagerService(  817): Going to sleep by user request...
+I/PowerManagerService(  817): Waking up from sleep...
+I/WindowManager(  817): Lock screen displayed!
+I/PowerManagerService(  817): Going to sleep due to screen timeout...
+W/ProcessStats(  817): Skipping unknown process pid 5524
+W/ProcessStats(  817): Skipping unknown process pid 5525
+W/ProcessStats(  817): Skipping unknown process pid 5528
+W/ProcessStats(  817): Skipping unknown process pid 5529
+W/ProcessStats(  817): Skipping unknown process pid 5532
+W/ProcessStats(  817): Skipping unknown process pid 5533
+W/ProcessStats(  817): Skipping unknown process pid 5535
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+W/SocketClient(  257): write error (Broken pipe)
+--------- beginning of /dev/log/main
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x62fbb73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x643de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6257f73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6257f73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/IBINDER_HOOK_SYSTEM(  817): ------- request_type=31,uid =10007
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6291873c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/dalvikvm(  817): GC_CONCURRENT freed 1992K, 19% free 14673K/18052K, paused 5ms+7ms, total 73ms
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d1f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x644de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x62fbb73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x643de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/CallerInfoCacheUpdateReceiver( 1015): CallerInfoCacheUpdateReceiver#onReceive(). Intent: Intent { act=com.android.phone.UPDATE_CALLER_INFO_CACHE flg=0x14 cmp=com.android.phone/.CallerInfoCacheUpdateReceiver (has extras) }
+D/CallerInfoCache( 1015): startAsyncCache
+W/CallerInfoCache( 1015): Previous cache task is remaining.
+D/CallerInfoCache( 1015): Start refreshing cache.
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x641de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/ContactsProvider( 1030): revised match: 3011
+D/ContactsProvider( 1030): ContactsProvider query:uri=content://com.android.contacts/data/callables,selection=((custom_ringtone IS NOT NULL OR send_to_voicemail=1) AND data1 IS NOT NULL),selectionArgs=null,sortOrder=null,directoryId=-1,match=3011
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+D/ContactsProvider( 1030): ContactsProvider query finished
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/CallerInfoCache( 1015): Caching entries are done. Total: 0
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6257f73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6144673c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x642de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d1f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x644de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/IBINDER_HOOK_SYSTEM(  817): ------- request_type=49,uid =10008
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x642de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+I/Choreographer(  817): Skipped 35 frames!  The application may be doing too much work on its main thread.
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/IBINDER_HOOK_SYSTEM(  817): ------- request_type=49,uid =10008
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x62fbb73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x643de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6134673c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x645de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/AlarmManagerService(  817): Kernel timezone updated to -480 minutes west of GMT
+D/IBINDER_HOOK_SYSTEM(  817): ------- request_type=31,uid =10007
+W/Parcel  (  817): Attempt to read object from Parcel 0x6134673c at offset 68 that is not in the object list
+D/IBINDER_HOOK_SYSTEM(  817): ------- request_type=31,uid =10009
+D/TimeService( 4999): Receivedandroid.intent.action.DATE_CHANGED intent. Current Time is 1389413166491
+D/        ( 4999): TimeServiceNative: User Time to be set is 1389413166491
+D/QC-time-services( 4999): Lib:time_genoff_operation: pargs->base = 2
+D/QC-time-services( 4999): Lib:time_genoff_operation: pargs->operation = 0
+D/QC-time-services( 4999): Lib:time_genoff_operation: pargs->ts_val = 1389413166491
+D/QC-time-services(  378): Daemon: Connection accepted:time_genoff
+D/QC-time-services(  378): Daemon:Received base = 2, unit = 1, operation = 0,value = 1389413166491
+D/QC-time-services(  378): Daemon:genoff_opr: Base = 2, val = 1389413166491, operation = 0
+D/QC-time-services(  378): Daemon:rtc_get: Time read from RTC -- MM/DD/YY HH:MM:SS1/15/70 14:15:29
+D/QC-time-services(  378): Daemon:Value read from RTC seconds = 3939329000
+D/QC-time-services(  378): Daemon:new time 1389413166491 
+D/QC-time-services(  378): Daemon: delta 1385473837491 genoff 1385473837491 
+D/QC-time-services(  378): Daemon:genoff_persistent_update: Writing genoff = 1385473837491 to memory
+D/QC-time-services(  378): Daemon:Opening File: /data/time/ats_2
+D/QC-time-services(  378): Daemon:time_persistent_memory_opr:Genoff write operation 
+D/QC-time-services( 4999): Lib:time_genoff_operation: Send to server  passed!!
+D/QC-time-services(  378): Updating the TOD offset
+D/QC-time-services(  378): Daemon:genoff_persistent_update: Writing genoff = 1385473837491 to memory
+D/QC-time-services(  378): Daemon:Opening File: /data/time/ats_1
+D/QC-time-services(  378): Daemon:time_persistent_memory_opr:Genoff write operation 
+E/QC-time-services(  378): Daemon:Update to modem bit set
+D/QC-time-services(  378): Daemon:genoff_send_modem: Sending data to MODEM !
+D/QC-time-services(  378): Daemon: Base = 2, Value being sent to MODEM = 1073448366491
+E/QC-time-services( 4999): Receive Passed == base = 2, unit = 1, operation = 0, result = 0
+E/QC-time-services(  378): Daemon:tod_update_ind_cb: Got Update from modem msg_id 40
+E/QC-time-services(  378): Daemon: Time-services: Waiting to acceptconnection
+I/Mms/WapPush( 3519): onReceiveTimeChange
+I/Mms/WapPush( 3519): onTimeChanged
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+W/EventLoader( 4936): get the event cursor is null or it's count is 0
+D/CallerInfoCacheUpdateReceiver( 1015): CallerInfoCacheUpdateReceiver#onReceive(). Intent: Intent { act=com.android.phone.UPDATE_CALLER_INFO_CACHE flg=0x14 cmp=com.android.phone/.CallerInfoCacheUpdateReceiver (has extras) }
+D/CallerInfoCache( 1015): startAsyncCache
+W/CallerInfoCache( 1015): Previous cache task is remaining.
+D/CallerInfoCache( 1015): Start refreshing cache.
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x642de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/ContactsProvider( 1030): revised match: 3011
+D/ContactsProvider( 1030): ContactsProvider query:uri=content://com.android.contacts/data/callables,selection=((custom_ringtone IS NOT NULL OR send_to_voicemail=1) AND data1 IS NOT NULL),selectionArgs=null,sortOrder=null,directoryId=-1,match=3011
+D/ContactsProvider( 1030): ContactsProvider query finished
+W/Parcel  (  817): Attempt to read object from Parcel 0x6134673c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/CallerInfoCache( 1015): Caching entries are done. Total: 0
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+I/rmt_storage(  386): rmt_storage_connect_cb: clnt_h=0x10 conn_h=0xb87238b0
+I/rmt_storage(  386): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x14 msg_id=3: R/W request received
+I/rmt_storage(  386): wakelock acquired: 1, error no: 42
+I/rmt_storage(  386): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1200473744)
+D/IBINDER_HOOK_UTILS( 1015): ioctl not change
+D/IBINDER_HOOK_UTILS( 1030): ioctl not change
+D/IBINDER_HOOK_UTILS(  817): ioctl not change
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/dalvikvm( 1452): GC_CONCURRENT freed 1936K, 24% free 6368K/8348K, paused 5ms+13ms, total 140ms
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+I/rmt_storage(  386): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x14 msg_id=3: Bytes written = 1572864
+I/rmt_storage(  386): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x14 msg_id=3: Send response: res=0 err=0
+I/rmt_storage(  386): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1200473744) wakelock released: 1, error no: 0
+I/rmt_storage(  386): 
+I/rmt_storage(  386): rmt_storage_disconnect_cb: clnt_h=0x0x10 conn_h=0x0xb87238b0
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d1f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6134673c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x641de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d1f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6257f73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d1f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+I/Choreographer(  817): Skipped 33 frames!  The application may be doing too much work on its main thread.
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6291873c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+W/SocketClient(  257): write error (Broken pipe)
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x644de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6257f73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6113373c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): WeatherWidget action = android.appwidget.action.APPWIDGET_UPDATE
+W/Parcel  (  817): Attempt to read object from Parcel 0x6281473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:3
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+W/SocketClient(  257): write error (Broken pipe)
+D/CallerInfoCacheUpdateReceiver( 1015): CallerInfoCacheUpdateReceiver#onReceive(). Intent: Intent { act=com.android.phone.UPDATE_CALLER_INFO_CACHE flg=0x14 cmp=com.android.phone/.CallerInfoCacheUpdateReceiver (has extras) }
+D/CallerInfoCache( 1015): startAsyncCache
+W/CallerInfoCache( 1015): Previous cache task is remaining.
+D/CallerInfoCache( 1015): Start refreshing cache.
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6113373c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/ContactsProvider( 1030): revised match: 3011
+D/ContactsProvider( 1030): ContactsProvider query:uri=content://com.android.contacts/data/callables,selection=((custom_ringtone IS NOT NULL OR send_to_voicemail=1) AND data1 IS NOT NULL),selectionArgs=null,sortOrder=null,directoryId=-1,match=3011
+D/ContactsProvider( 1030): ContactsProvider query finished
+D/CallerInfoCache( 1015): Caching entries are done. Total: 0
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6134673c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/dalvikvm(  817): GC_CONCURRENT freed 2066K, 19% free 14663K/18052K, paused 26ms+10ms, total 140ms
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x62fbb73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x645de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6113373c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+W/SocketClient(  257): write error (Broken pipe)
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6257f73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+I/PowerManagerService(  817): Waking up from sleep...
+D/KeyguardHostView(  817): showSecurityScreen(None)
+D/KeyguardHostView(  817): getSecurityView(None)
+I/QCOM PowerHAL(  817): Got set_interactive hint
+D/IBINDER_HOOK_SYSTEM(  817): ------- request_type=31,uid =10007
+D/SurfaceFlinger(  261): Screen acquired, type=0 flinger=0xb7954478
+D/qdhwcomposer(  261): hwc_blank: Unblanking display: 0
+D/AudioHardwareALSA(  266): AudioResourceManager - setParameter
+D/AudioResourceManager(  266):  setParameter screen_state=on:
+I/WindowManager(  817): Lock screen displayed!
+D/dalvikvm(  933): GC_CONCURRENT freed 2074K, 40% free 7369K/12180K, paused 4ms+3ms, total 42ms
+D/dalvikvm(  817): GC_FOR_ALLOC freed 560K, 20% free 14553K/18052K, paused 55ms, total 56ms
+I/dalvikvm-heap(  817): Grow heap (frag case) to 17.333MB for 1128984-byte allocation
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0x6247b73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/qdhwcomposer(  261): hwc_blank: Done unblanking display: 0
+D/SurfaceControl(  817): Excessive delay in unblankDisplay() while turning screen on: 287ms
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/dalvikvm( 1019): GC_CONCURRENT freed 1804K, 22% free 6659K/8504K, paused 3ms+4ms, total 31ms
+E/com.lenovo.ue.service.util.CommUtils( 1019): , class java.io.IOException, Error running exec(). Command: [su, -] Working Directory: null Environment: null
+I/EntropyMixer(  817): Writing entropy...
+W/PowerUI (  933): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+I/ActivityManager(  817): Start proc android.process.media for broadcast com.android.providers.media/.MtpReceiver: pid=7337 uid=10017 gids={50017, 1015, 1023, 1024, 1028, 2001, 3003, 3007}
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d1f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/charger_monitor(  492): init target 500000
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+D/TrackUtils(  817): setFastFlag - flags b4 = 4 , streamType = 1
+D/TrackUtils(  817): ULL for ringtones/Alarm/Notification/system            sound/enforced audible
+D/TrackUtils(  817): setFastFlags after = 4
+D/TrackUtils(  817): livesLocally  = 0
+W/TrackUtils(  817): AudioTrack created for streamType =1, flags =0
+W/TrackUtils(  817): We donot need to inform HAL
+D/AudioPolicyManagerALSA(  266): isStreamActive: 0
+E/ALSAStreamOps(  266): setParameters(): keyRouting with device2 0x2
+D/AudioHardwareALSA(  266): device = 0x2,mCurDevice 0x2
+D/ALSADevice(  266): mInChannels:1
+D/ALSADevice(  266): route: devices 0x2 in mode 0
+D/ALSADevice(  266): switchDevice: device 0x2 mode:0
+D/ALSADevice(  266): getUCMDevice for output device: devices:2 is input device:0
+D/ALSADevice(  266): switchDevice: rxDevice Speaker devices:0x2
+D/ALSADevice(  266): getUCMDevice for input device: devices:0 is input device:1
+D/ALSADevice(  266): No valid input device: 0
+D/ALSADevice(  266): switchDevice: txDevice:(null) devices:0x2
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _enadev value Speaker
+D/ALSADevice(  266): switchDevice: mCurTxUCMDevice None mCurRxDevDevice Speaker
+E/alsa_ucm(  266): No valid device/modifier found with given identifier: None
+D/ALSADevice(  266): rx_ACDB_id=15, tx_ACDB_id=-22
+D/TrackUtils(  817): livesLocally  = 0
+W/TrackUtils(  817): AudioTrack created for streamType =1, flags =0
+W/TrackUtils(  817): We donot need to inform HAL
+I/R2      ( 1053): LoadBootPolicy.getDefaultProfileProcessingState---false
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 com.android.internal.policy.impl.keyguard.KeyguardViewManager.hide:552 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleHide:1349 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.handleKeyguardDone:1208 com.android.internal.policy.impl.keyguard.KeyguardViewMediator.access$2300:104 
+D/ALSADevice(  266): route: devices 0x2 in mode 0
+D/ALSADevice(  266): switchDevice: device 0x2 mode:0
+D/ALSADevice(  266): getUCMDevice for output device: devices:2 is input device:0
+D/ALSADevice(  266): switchDevice: rxDevice Speaker devices:0x2
+D/ALSADevice(  266): getUCMDevice for input device: devices:0 is input device:1
+D/ALSADevice(  266): No valid input device: 0
+D/ALSADevice(  266): switchDevice: txDevice:(null) devices:0x2
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _enadev value Speaker
+D/ALSADevice(  266): switchDevice: mCurTxUCMDevice None mCurRxDevDevice Speaker
+E/alsa_ucm(  266): No valid device/modifier found with given identifier: None
+D/ALSADevice(  266): rx_ACDB_id=15, tx_ACDB_id=-22
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _verb value HiFi Lowlatency
+D/alsa_ucm(  266): Set mixer controls for Speaker enable 1
+D/alsa_ucm(  266): acdb_id 15 cap 1 enable 1
+D/ACDB-LOADER(  266): ACDB -> send_audio_cal, acdb_id = 15, path =  0
+D/ACDB-LOADER(  266): ACDB -> send_adm_topology
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+D/ACDB-LOADER(  266): ACDB -> send_audtable
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+D/ACDB-LOADER(  266): ACDB -> AUDIO_SET_AUDPROC_CAL
+D/ACDB-LOADER(  266): ACDB -> send_audvoltable
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE
+D/        (  266): Failed to fetch the lookup information of the device 0000000F 
+E/ACDB-LOADER(  266): Error: ACDB AudProc vol returned = -19
+D/ACDB-LOADER(  266): ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+D/ACDB-LOADER(  266): ACDB -> send_afe_cal
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+D/ACDB-LOADER(  266): ACDB -> AUDIO_SET_AFE_CAL
+D/alsa_ucm(  266): Setting mixer control: RX3 MIX1 INP1, value: RX1
+D/alsa_ucm(  266): Setting mixer control: RDAC4 MUX, value: RX3
+D/alsa_ucm(  266): Set mixer controls for HiFi Lowlatency enable 1
+D/alsa_ucm(  266): Setting mixer control: SEC_MI2S_RX Audio Mixer MultiMedia5, value: 1
+D/ALSADevice(  266): close: handle 0xb74f29d0 h 0x0
+D/ALSADevice(  266): open: handle 0xb74f29d0, format 0x2
+D/ALSADevice(  266): Music case
+D/ALSADevice(  266): Device value returned is hw:0,12
+D/ALSADevice(  266): flags 0, devName hw:0,12
+D/ALSADevice(  266): handle->format: 0x2
+D/ALSADevice(  266): setHardwareParams: reqBuffSize 960 channels 2 sampleRate 48000
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+D/ALSADevice(  266): setHardwareParams: buffer_size 7680, period_size 960, period_cnt 8
+I/ActivityManager(  817): Start proc com.lenovo.safecenter:fore for broadcast com.lenovo.safecenter/.update.LesafeUpdaterBroadcastReceiver: pid=7365 uid=10039 gids={50039, 3003, 1015, 3006, 1007, 3001, 3002, 1023, 1028}
+D/PhoneStatusBar(  933): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+I/R2      ( 1053): LoadBootPolicy.getDefaultProfileProcessingState---false
+I/R2      ( 1053): LoadBootPolicy.getDefaultProfileProcessingState---false
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41e73980 attribute=android.view.inputmethod.EditorInfo@41edade0, token = android.os.BinderProxy@41f61e10
+D/Const   ( 7365): isServiceProcess, in ui process
+I/Const   ( 7365): onCreate
+I/NacBroadcastReceiver( 7365): Receive : #Intent;action=android.intent.action.USER_PRESENT;launchFlags=0x28000010;component=com.lenovo.safecenter/.update.LesafeUpdaterBroadcastReceiver;end
+D/dalvikvm( 7365): Trying to load lib /data/data/com.lenovo.safecenter/files/ui/liblocation-1.0.0-legacy.so 0x41bdc1f0
+D/dalvikvm( 7365): Added shared lib /data/data/com.lenovo.safecenter/files/ui/liblocation-1.0.0-legacy.so 0x41bdc1f0
+D/dalvikvm( 7365): Trying to load lib /data/data/com.lenovo.safecenter/files/ui/libsmschecker-1.0.1.so 0x41bdc1f0
+D/dalvikvm( 7365): Added shared lib /data/data/com.lenovo.safecenter/files/ui/libsmschecker-1.0.1.so 0x41bdc1f0
+D/dalvikvm( 7365): No JNI_OnLoad found in /data/data/com.lenovo.safecenter/files/ui/libsmschecker-1.0.1.so 0x41bdc1f0, skipping init
+D/dalvikvm( 7365): Trying to load lib /data/data/com.lenovo.safecenter/files/ui/libsmsparser-1.0.0.so 0x41bdc1f0
+D/dalvikvm( 7365): Added shared lib /data/data/com.lenovo.safecenter/files/ui/libsmsparser-1.0.0.so 0x41bdc1f0
+D/dalvikvm( 7365): No JNI_OnLoad found in /data/data/com.lenovo.safecenter/files/ui/libsmsparser-1.0.0.so 0x41bdc1f0, skipping init
+D/dalvikvm( 7365): Trying to load lib /data/data/com.lenovo.safecenter/files/ui/libpatchtool-0.3.5.so 0x41bdc1f0
+I/LESAFE_PATCHTOOL( 7365): [+] patchtool_init [SO Version:0.3.5]
+D/dalvikvm( 7365): Added shared lib /data/data/com.lenovo.safecenter/files/ui/libpatchtool-0.3.5.so 0x41bdc1f0
+I/LMS     (  287): nac_safe_server service accepted...
+I/LMS     (  287): ClientSock = 9
+D/dalvikvm( 7365): No JNI_OnLoad found in /data/data/com.lenovo.safecenter/files/ui/libpatchtool-0.3.5.so 0x41bdc1f0, skipping init
+I/LMS     (  287): nac_safe_server Create Work Thread : 25775512 Start...
+I/LMS     (  287): nac_safe_server service message: /data/data/com.lenovo.safecenter/files/testa.sh_w &, len = 51
+I/LMS     (  287): nac_safe_server os_readfile buffer: /data/data/com.lenovo.safecenter/files/testa.sh_w &
+I/LMS     (  287): nac_safe_server os_readfile read len: 0
+I/LMS     (  287): path =  /data/data/com.lenovo.safecenter/files/testa.sh_w &
+I/LMS     (  287): tk =  data
+I/LMS     (  287): nac_safe_server get package_name: com.lenovo.safecenter
+W/LMS     (  287): Sorry, you have no permission, LMS_Deny
+I/LMS     (  287): check_xml_odm_package_permission() in
+I/LMS     (  287): get odm key cert_index : 3
+I/LMS     (  287): odm key length: 2308
+I/LMS     (  287): odm key is: 3082047e30820366a003020102020900854e5e1bfc1ce89a300d06092a864886f70d0101050500308186310b300906035504061302434e310b300906035504081302424a311530130603550407130c4265696a696e672056696577310f300d060355040a13064c656e6f766f3111300f060355040b13085265736561726368310d300b060355040313044c654f533120301e06092a864886f70d01090116116c656e6f766f406c656e6f766f2e636f6d301e170d3130313231363037303131385a170d3734313031363030333330325a308186310b300906035504061302434e310b300906035504081302424a311530130603550407130c4265696a696e672056696577310f300d060355040a13064c656e6f766f3111300f060355040b13085265736561726368310d300b060355040313044c654f533120301e06092a864886f70d01090116116c656e6f766f406c656e6f766f2e636f6d30820120300d06092a864886f70d01010105000382010d00308201080282010100cf5ee6bffd5562166399b56d24817e250198c163c76549720b7da8640192c13e29796a4bcb8e4fdb08d89fa512426e1aea6ab6f6fc0d3068459cf147330ed2b997578b38be1ea79d44c20140375bdfc87df4152bc759453ca321aa149faf283dc64b024430863ea3f67bcdc2abc81121f8eac9d473999808810c42ce9c9339b
+I/LMS     (  287): This is InHouse or RD release key allow ...
+I/LMS     (  287): nac_safe_server  permisson passed, buffer = /data/data/com.lenovo.safecenter/files/testa.sh_w &
+D/ReflectUtils( 7365): ReflectAccelerateInit
+D/ReflectUtils( 7365): ReflectPrivacyGuardInit
+I/LMS     (  287): nac_safe_server  reday to exec cmds =  /data/data/com.lenovo.safecenter/files/testa.sh_w &
+I/LMS     (  287): This is nac_safe_server Reponse. 
+I/LMS     (  287): success, errorcode = 0
+I/LMS     (  287): nac_safe_server service message: Root cmds exec Ok.
+I/LMS     (  287): nac_safe_server Create Work Thread : 25775512 Finished, Used 23.158000 ms
+I/ActivityManager(  817): Start proc com.lenovo.leos.cloud.sync for broadcast com.lenovo.leos.cloud.sync/.common.auto.FirstNotifyBroadcastReceiver: pid=7389 uid=10040 gids={50040, 3003, 1015, 1023, 1028}
+D/dalvikvm(  262): GC_EXPLICIT freed 40K, 8% free 6234K/6776K, paused 3ms+2ms, total 28ms
+D/dalvikvm(  262): GC_EXPLICIT freed <1K, 8% free 6234K/6776K, paused 2ms+8ms, total 30ms
+D/dalvikvm(  262): GC_EXPLICIT freed <1K, 8% free 6234K/6776K, paused 1ms+2ms, total 31ms
+V/TAG     (  817): bug 7643792: fitSystemWindows([0,0][0,0])
+D/dalvikvm( 7389): GC_CONCURRENT freed 1002K, 13% free 7235K/8280K, paused 3ms+3ms, total 22ms
+D/dalvikvm( 7389): GC_CONCURRENT freed 1598K, 18% free 7601K/9240K, paused 3ms+8ms, total 32ms
+D/dalvikvm( 7389): GC_CONCURRENT freed 1667K, 18% free 7912K/9620K, paused 2ms+3ms, total 23ms
+I/PhotoSettingManager( 7389): useMySelf:true
+D/BackgroundDataTools( 7389): ALLOW_SYNCit_BACKGROUND_DATA: false | [null]
+D/butnet  ( 7389): FirstNotifyBroadcastReceiver BackgroundDataTools.isEnable false
+D/ApplicationUtil( 7389): KillBackgroudProcess
+D/ApplicationUtil( 7389): KillBackgroudProcess lazy 2000ms...
+D/LenovoWeatherApp( 1452): CommonReceiver action=android.intent.action.USER_PRESENT
+W/Parcel  (  817): Attempt to read object from Parcel 0x644de73c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6281473c at offset 68 that is not in the object list
+W/Parcel  (  817): Attempt to read object from Parcel 0x5d0f473c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/ActivityManager(  817): Unable to start service Intent { act=com.lenovo.weatherserver.TimeTickService } U=0: not found
+D/LenovoWeatherApp( 1452): TimeTickService onStartCommand
+W/Parcel  (  817): Attempt to read object from Parcel 0x6144673c at offset 68 that is not in the object list
+D/LenovoWeatherApp( 1452): TimeTickService onStart(Intent intent, int startId)
+D/LenovoWeatherApp( 1452): WeatherWidget action = android.intent.action.USER_PRESENT
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:3
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+W/Parcel  (  817): Attempt to read object from Parcel 0x6376073c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/ALSADevice(  266): standby: handle 0xb74f29d0 h 0x0
+D/ALSADevice(  266): standby handle h 0xb75587f0
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _verb value Inactive
+D/alsa_ucm(  266): Set mixer controls for HiFi Lowlatency enable 0
+D/alsa_ucm(  266): Setting mixer control: SEC_MI2S_RX Audio Mixer MultiMedia5, value: 0
+D/ALSADevice(  266): usecase_type is 0
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _disdev value Speaker
+D/alsa_ucm(  266): Set mixer controls for Speaker enable 0
+D/alsa_ucm(  266): Setting mixer control: RX3 MIX1 INP1, value: ZERO
+D/alsa_ucm(  266): Setting mixer control: RDAC4 MUX, value: ZERO
+D/AudioHardwareALSA(  266): closeUsbPlaybackIfNothingActive, musbPlaybackState: 0
+D/AudioUsbALSA(  266): exitPlaybackThread, mproxypfdPlayback: -1
+D/AudioUsbALSA(  266): closeDevice handle 0x0
+D/AudioUsbALSA(  266): closeDevice handle 0x0
+D/ApplicationUtil( 7389): KillBackgroudProcess in lazy ...
+I/ActivityManager(  817): Killing proc 7389:com.lenovo.leos.cloud.sync/u0a10040: kill background
+D/LenovoWeatherApp( 1452): TimeTickService action = android.intent.action.TIME_TICK
+D/LenovoWeatherApp( 1452): CommonReceiver action=com.lenovo.weather.action.TIME_TICK
+D/LenovoWeatherApp( 1452): WeatherWidget action = com.lenovo.weather.action.TIME_TICK
+W/Parcel  (  817): Attempt to read object from Parcel 0xbe9cac84 at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+W/Parcel  (  817): Attempt to read object from Parcel 0x6291873c at offset 68 that is not in the object list
+E/Parcel  (  817): Reading a NULL string not supported here.
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService ids.length = 1
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update normal mIsAnim:1
+V/LenovoWeatherApp( 1452): layoutId:0
+V/LenovoWeatherApp( 1452): themeCenter:false
+D/dalvikvm( 1452): GC_CONCURRENT freed 1941K, 24% free 6384K/8348K, paused 2ms+1ms, total 47ms
+D/LenovoWeatherApp( 1452): UpdateAppWidgetService update end
+D/ProcessKiller( 4394): Before killing process: 7365, requestCount: 0
+D/ProcessKiller( 4394): Before killing process: 7365, requestCount: 0
+D/ProcessKiller( 4394): OOMADJ value: 9
+I/Process ( 4394): Sending signal. PID: 7365 SIG: 9
+D/ProcessKiller( 4394): OOMADJ value: 9
+I/Process ( 4394): Sending signal. PID: 7365 SIG: 9
+I/ActivityManager(  817): Process com.lenovo.safecenter:fore (pid 7365) has died.
+E/.SETTINGS_DRAG_SHORTCUT(  933): =============MotionEvent.ACTION_DOWN==========
+W/Parcel  (  817): Attempt to read object from Parcel 0x641de73c at offset 68 that is not in the object list
+D/SizeAdaptiveLayout(  933): com.android.internal.widget.SizeAdaptiveLayout{4211ade8 V.E..... ......I. 0,0-0,0 #7f070070 app:id/adaptive}child view android.widget.FrameLayout{41cc2e68 G.E..... ......ID 0,0-0,0 #102030f android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+D/SizeAdaptiveLayout(  933): com.android.internal.widget.SizeAdaptiveLayout{41cb97c0 V.E..... ......I. 0,0-0,0 #7f070070 app:id/adaptive}child view android.widget.FrameLayout{41cd1090 G.E..... ......ID 0,0-0,0 #102030f android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+D/SizeAdaptiveLayout(  933): com.android.internal.widget.SizeAdaptiveLayout{4211ade8 V.E..... ......I. 0,0-0,0 #7f070070 app:id/adaptive}child view android.widget.FrameLayout{41cc2e68 G.E..... ......ID 0,0-0,0 #102030f android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+D/SizeAdaptiveLayout(  933): com.android.internal.widget.SizeAdaptiveLayout{41cb97c0 V.E..... ......I. 0,0-0,0 #7f070070 app:id/adaptive}child view android.widget.FrameLayout{41cd1090 G.E..... ......ID 0,0-0,0 #102030f android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.fling(  933): =========================
+E/panelView.draw(  933): ==============================
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=751.0612 v=2042.6923)
+V/PanelView(  933): animationTick called with dtms=-6; nothing to do (h=751.0612 v=2042.6923)
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+W/AppOps  (  817): Finishing op nesting under-run: uid 1000 pkg android code 3 time=0 duration=0 nesting=0
+E/panelView.fling(  933): =========================
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=800.0 v=-3000.0)
+V/PanelView(  933): animationTick called with dtms=0; nothing to do (h=800.0 v=-3000.0)
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+E/panelView.draw(  933): ==============================
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41c49398 attribute=null, token = android.os.BinderProxy@41f61e10
+D/UsbDebuggingManager(  817): Received public key: QAAAAN3/tJGLr4WCC+GTfl5MhWiELSPdWxUBXl/gMlh3J4+qBDjTqZO6JMdPheoFC08kBQdvNe1rl7+puB676Rp5mf2NOzcvv8WFcoebntxEJPs0QUGeVz1H4PvcuS+8FSWYoHyvSKFc5s6zEH6Gk0U5GXKWWdlT1OdrtNcjaj9XnhyI0sOxqnsP3Ci2MLvmyy+es3ZPgn6QFXSFX7SVHM1xYmUC1xKrycLnCMrVKjVPPgwOyWfGKQ7PCXTk4jkXID8FIckm3g7y8uejohSOo1IjGXIuNCu6bBavkIKwf6cDQkgLMpD3RWR1NoURFc8TtkJioh+Arz5UFDHis1Hcvk6KiuciNau3g0vLmW4EfULqbWKGDyXZtTxEXsbQ6V7NWM26XQMMCGX6/abPcTmVMCdQ5imcGa1ezF3R88dGUusxAfXOB/5aLAwJoxbOPNdU3PL1p3BbdllT2ZiqhyCv0svoypNzT5xpCJsxAWI4YOzddakONOS8bWE8NO+9fI0ez15XL8vO9XrYD97C87uSI8gv3fvN8QTfkxL836cYSY9BEaGnVhTiZVZvw2aoUhXZ24m+4y1X0UV9w1ZGJLuSWsRltgEnwulk/Lu6Uwq6cTYt3f47A34pPy40Uo5c8lAzSetSeeajCQxQ+dwIkIcS367MtSj0M1I/sSYiAxqQ7fvC8rdet2oFXQEAAQA= unknown@unknown
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:950 com.android.server.usb.UsbDebuggingManager.showConfirmationDialog:272 com.android.server.usb.UsbDebuggingManager.access$900:46 com.android.server.usb.UsbDebuggingManager$UsbDebuggingHandler.handleMessage:228 android.os.Handler.dispatchMessage:99 
+W/ContextImpl(  817): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:962 android.app.ContextImpl.startActivity:951 com.android.server.usb.UsbDebuggingManager.showConfirmationDialog:272 com.android.server.usb.UsbDebuggingManager.access$900:46 com.android.server.usb.UsbDebuggingManager$UsbDebuggingHandler.handleMessage:228 
+I/ActivityManager(  817): START u0 {flg=0x10000000 cmp=com.android.systemui/.usb.UsbDebuggingActivity (has extras)} from pid 817
+D/dalvikvm(  817): JIT code cache reset in 2 ms (1048560 bytes 2/0)
+D/dalvikvm(  817): GC_FOR_ALLOC freed 2027K, 25% free 14423K/19156K, paused 54ms, total 65ms
+I/R2      ( 1053): LoadBootPolicy.getDefaultProfileProcessingState---false
+W/Parcel  (  817): Attempt to read object from Parcel 0x643de73c at offset 68 that is not in the object list
+W/ContextImpl(  933): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1053 android.content.ContextWrapper.sendBroadcast:344 android.app.Activity.onResume:1107 android.app.Instrumentation.callActivityOnResume:1192 android.app.Activity.performResume:5231 
+I/ActivityManager(  817): Displayed com.android.systemui/.usb.UsbDebuggingActivity: +149ms
+I/R2      ( 1053): LoadBootPolicy.getDefaultProfileProcessingState---false
+D/Launcher( 1053): closeFolder:null
+D/TrackUtils(  817): setFastFlag - flags b4 = 4 , streamType = 1
+D/TrackUtils(  817): ULL for ringtones/Alarm/Notification/system            sound/enforced audible
+D/TrackUtils(  817): setFastFlags after = 4
+D/TrackUtils(  817): livesLocally  = 0
+W/TrackUtils(  817): AudioTrack created for streamType =1, flags =4
+W/TrackUtils(  817): We donot need to inform HAL
+D/AudioPolicyManagerALSA(  266): isStreamActive: 0
+E/ALSAStreamOps(  266): setParameters(): keyRouting with device2 0x2
+D/AudioHardwareALSA(  266): device = 0x2,mCurDevice 0x2
+D/ALSADevice(  266): mInChannels:1
+D/ALSADevice(  266): route: devices 0x2 in mode 0
+D/ALSADevice(  266): switchDevice: device 0x2 mode:0
+D/ALSADevice(  266): getUCMDevice for output device: devices:2 is input device:0
+D/ALSADevice(  266): switchDevice: rxDevice Speaker devices:0x2
+D/ALSADevice(  266): getUCMDevice for input device: devices:0 is input device:1
+D/ALSADevice(  266): No valid input device: 0
+D/ALSADevice(  266): switchDevice: txDevice:(null) devices:0x2
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _enadev value Speaker
+D/ALSADevice(  266): switchDevice: mCurTxUCMDevice None mCurRxDevDevice Speaker
+E/alsa_ucm(  266): No valid device/modifier found with given identifier: None
+D/ALSADevice(  266): rx_ACDB_id=15, tx_ACDB_id=-22
+D/TrackUtils(  817): livesLocally  = 0
+W/TrackUtils(  817): AudioTrack created for streamType =1, flags =4
+W/TrackUtils(  817): We donot need to inform HAL
+D/ALSADevice(  266): route: devices 0x2 in mode 0
+D/ALSADevice(  266): switchDevice: device 0x2 mode:0
+D/ALSADevice(  266): getUCMDevice for output device: devices:2 is input device:0
+D/ALSADevice(  266): switchDevice: rxDevice Speaker devices:0x2
+D/ALSADevice(  266): getUCMDevice for input device: devices:0 is input device:1
+D/ALSADevice(  266): No valid input device: 0
+D/ALSADevice(  266): switchDevice: txDevice:(null) devices:0x2
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _enadev value Speaker
+D/ALSADevice(  266): switchDevice: mCurTxUCMDevice None mCurRxDevDevice Speaker
+E/alsa_ucm(  266): No valid device/modifier found with given identifier: None
+D/ALSADevice(  266): rx_ACDB_id=15, tx_ACDB_id=-22
+D/alsa_ucm(  266): snd_use_case_set(): uc_mgr 0xb744a5a0 identifier _verb value HiFi Lowlatency
+D/alsa_ucm(  266): Set mixer controls for Speaker enable 1
+D/alsa_ucm(  266): acdb_id 15 cap 1 enable 1
+D/ACDB-LOADER(  266): ACDB -> send_audio_cal, acdb_id = 15, path =  0
+D/ACDB-LOADER(  266): ACDB -> send_adm_topology
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+D/ACDB-LOADER(  266): ACDB -> send_audtable
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+D/ACDB-LOADER(  266): ACDB -> AUDIO_SET_AUDPROC_CAL
+D/ACDB-LOADER(  266): ACDB -> send_audvoltable
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE
+D/        (  266): Failed to fetch the lookup information of the device 0000000F 
+E/ACDB-LOADER(  266): Error: ACDB AudProc vol returned = -19
+D/ACDB-LOADER(  266): ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+D/ACDB-LOADER(  266): ACDB -> send_afe_cal
+D/ACDB-LOADER(  266): ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+D/ACDB-LOADER(  266): ACDB -> AUDIO_SET_AFE_CAL
+D/alsa_ucm(  266): Setting mixer control: RX3 MIX1 INP1, value: RX1
+D/alsa_ucm(  266): Setting mixer control: RDAC4 MUX, value: RX3
+D/alsa_ucm(  266): Set mixer controls for HiFi Lowlatency enable 1
+D/alsa_ucm(  266): Setting mixer control: SEC_MI2S_RX Audio Mixer MultiMedia5, value: 1
+D/ALSADevice(  266): close: handle 0xb74f29d0 h 0x0
+D/ALSADevice(  266): open: handle 0xb74f29d0, format 0x2
+D/ALSADevice(  266): Music case
+D/ALSADevice(  266): Device value returned is hw:0,12
+D/ALSADevice(  266): flags 0, devName hw:0,12
+D/ALSADevice(  266): handle->format: 0x2
+D/ALSADevice(  266): setHardwareParams: reqBuffSize 960 channels 2 sampleRate 48000
+D/ALSADevice(  266): setHardwareParams: buffer_size 7680, period_size 960, period_cnt 8
+I/UsageStats(  817): No package stats for pkg:com.android.systemui
+I/R2      ( 1053): LoadBootPolicy.getDefaultProfileProcessingState---false
+W/InputMethodManagerService(  817): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41fc1c40 attribute=null, token = android.os.BinderProxy@41f61e10
